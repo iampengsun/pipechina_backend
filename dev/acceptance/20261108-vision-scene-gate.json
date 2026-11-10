@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-11-08T03:13:27.871023+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "vision",
+      "started_at": "2026-11-08T03:13:27.935730+00:00",
+      "status": "passed",
+      "result": {
+        "vision": {
+          "findings": []
+        },
+        "expert_validated": false
+      },
+      "finished_at": "2026-11-08T03:15:11.954334+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T03:15:11.955804+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-11-07T05:23:39.543801+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "hazard",
+      "started_at": "2026-11-07T05:23:39.692596+00:00",
+      "status": "passed",
+      "result": {
+        "hazard_id": "ed5d9c1e-8625-4147-8d07-cbcb9e3652ef",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-07T05:23:39.809475+00:00"
+    },
+    {
+      "name": "meeting",
+      "started_at": "2026-11-07T05:23:39.810501+00:00",
+      "status": "passed",
+      "result": {
+        "meeting_id": "189e0f6c-f8dd-47dd-8aab-a433edbbdffc",
+        "acl_version": 2
+      },
+      "finished_at": "2026-11-07T05:23:39.846270+00:00"
+    },
+    {
+      "name": "documents",
+      "started_at": "2026-11-07T05:23:39.846752+00:00",
+      "status": "failed",
+      "reason": "document expected text missing: scanned_ocr",
+      "finished_at": "2026-11-07T05:27:40.842975+00:00"
+    }
+  ],
+  "resources": {
+    "hazard_id": "ed5d9c1e-8625-4147-8d07-cbcb9e3652ef"
+  },
+  "finished_at": "2026-11-07T05:27:40.846476+00:00",
+  "status": "incomplete"
+}

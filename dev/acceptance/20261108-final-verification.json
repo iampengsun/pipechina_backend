@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-08T02:54:59.178357+00:00",
+  "source_digest": "43db49b91d094117140fa7c46a1d7b881d3e0661a3207f595cf53480d37366f1",
+  "tests": {
+    "passed": 175,
+    "skipped": 3,
+    "total": 178,
+    "branch_coverage_percent": 77.83,
+    "warnings_as_errors": true
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format": "passed",
+    "mypy_sources": 224,
+    "compile": "passed",
+    "docs_links": 128,
+    "docs_broken_links": 0,
+    "api_table_operations": 145,
+    "unmatched_api_operations": 0
+  },
+  "schema": {
+    "revision": "20261107_0006",
+    "application_tables": 75,
+    "json_columns": 68,
+    "alembic_check": "no_missing_upgrade_operations"
+  },
+  "compose_services": 20,
+  "real_passed": [
+    "hazard_measured_independent_acceptance",
+    "meeting_acl_revocation",
+    "work_order_measured_independent_acceptance",
+    "overdue_reminder_ack_and_resolution",
+    "two_speakers_asr",
+    "scanned_pdf_ocr",
+    "cross_page_table",
+    "isolated_restore_database_indexes_and_objects",
+    "authenticated_read_load"
+  ],
+  "pending": [
+    "vision_tokenizer_compatibility_retest"
+  ],
+  "external_blockers": [
+    "Beijing Qwen TLS ConnectTimeout: no region change",
+    "Real expert samples, labels and thresholds awaiting confirmation",
+    "Actual production host, IdP and TLS deployment materials not supplied"
+  ],
+  "expert_accepted": false
+}

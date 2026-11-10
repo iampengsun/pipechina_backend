@@ -1,0 +1,567 @@
+name: pipechina
+services:
+  postgres:
+    image: postgres:18.6-alpine3.24
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-peter}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-123456}
+      POSTGRES_DB: ${POSTGRES_DB:-pipechina}
+      POSTGRES_INITDB_ARGS: --data-checksums
+    ports:
+    - 127.0.0.1:5432:5432
+    volumes:
+    - pg_data:/var/lib/postgresql
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - pg_isready -U ${POSTGRES_USER:-peter}
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  rabbitmq:
+    image: rabbitmq:4.3.5-management-alpine
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER:-peter}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS:-123456}
+    ports:
+    - 127.0.0.1:5672:5672
+    - 127.0.0.1:15672:15672
+    volumes:
+    - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD
+      - rabbitmq-diagnostics
+      - -q
+      - ping
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  redis:
+    image: redis:8.10.1-alpine3.23
+    command: redis-server --appendonly yes
+    ports:
+    - 127.0.0.1:6379:6379
+    volumes:
+    - redis_data:/data
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD
+      - redis-cli
+      - ping
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  seaweedfs:
+    image: chrislusf/seaweedfs:4.44
+    command: server -dir=/data -s3 -s3.port=8333
+    environment:
+      AWS_ACCESS_KEY_ID: ${S3_ACCESS_KEY:-peter}
+      AWS_SECRET_ACCESS_KEY: ${S3_SECRET_KEY:-123456}
+    ports:
+    - 127.0.0.1:8333:8333
+    volumes:
+    - seaweed_data:/data
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD
+      - wget
+      - -q
+      - --spider
+      - http://127.0.0.1:8333/readyz
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  elasticsearch:
+    image: ${ELASTICSEARCH_IMAGE:-docker.elastic.co/elasticsearch/elasticsearch:8.19.8}
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: 'true'
+      xpack.security.http.ssl.enabled: 'false'
+      ELASTIC_PASSWORD: ${ES_PASSWORD:?Set ES_PASSWORD}
+      ES_JAVA_OPTS: -Xms1g -Xmx1g
+    ports:
+    - 127.0.0.1:9200:9200
+    volumes:
+    - es_data:/usr/share/elasticsearch/data
+    networks:
+    - default
+    mem_limit: 3g
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fsS -u elastic:$$ELASTIC_PASSWORD http://localhost:9200/_cluster/health
+        >/dev/null
+      interval: 15s
+      timeout: 10s
+      retries: 20
+    restart: unless-stopped
+  qdrant:
+    image: ${QDRANT_IMAGE:-qdrant/qdrant:v1.15.5}
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:?Set QDRANT_API_KEY}
+    ports:
+    - 127.0.0.1:6333:6333
+    volumes:
+    - qdrant_data:/qdrant/storage
+    networks:
+    - default
+    mem_limit: 2g
+    restart: unless-stopped
+  neo4j:
+    image: ${NEO4J_IMAGE:-neo4j:5.26.12}
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?Set NEO4J_PASSWORD}
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1g
+      NEO4J_server_memory_pagecache_size: 512m
+    ports:
+    - 127.0.0.1:7474:7474
+    - 127.0.0.1:7687:7687
+    volumes:
+    - neo4j_data:/data
+    networks:
+    - default
+    mem_limit: 3g
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - wget -q --spider http://localhost:7474 || exit 1
+      interval: 15s
+      timeout: 10s
+      retries: 20
+    restart: unless-stopped
+  knowledge-runtime:
+    build:
+      context: ../..
+      dockerfile: services/knowledge_runtime/Dockerfile
+    environment:
+      API_KEY: ${KNOWLEDGE_SERVICE_API_KEY:?Set KNOWLEDGE_SERVICE_API_KEY}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-BAAI/bge-m3}
+      EMBEDDING_REVISION: ${EMBEDDING_REVISION:?Set pinned embedding model commit}
+      RERANKER_MODEL: ${RERANKER_MODEL:-BAAI/bge-reranker-v2-m3}
+      RERANKER_REVISION: ${RERANKER_REVISION:?Set pinned reranker model commit}
+      MODEL_DEVICE: ${KNOWLEDGE_MODEL_DEVICE:-cpu}
+      HF_HUB_DISABLE_XET: '1'
+      HF_HUB_DOWNLOAD_TIMEOUT: '60'
+      HF_HUB_ETAG_TIMEOUT: '20'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    ports:
+    - 127.0.0.1:8103:8000
+    volumes:
+    - knowledge_runtime_data:/data
+    - knowledge_runtime_models:/home/worker/.cache/huggingface
+    - knowledge_runtime_ocr:/usr/local/lib/python3.13/site-packages/rapidocr/models
+    networks:
+    - default
+    mem_limit: 16g
+    pids_limit: 256
+    security_opt:
+    - no-new-privileges:true
+    restart: unless-stopped
+    healthcheck:
+      test:
+      - CMD
+      - python
+      - -c
+      - import os, urllib.request; r=urllib.request.Request('http://localhost:8000/health/live',
+        headers={'Authorization':'Bearer '+os.environ['API_KEY']}); urllib.request.urlopen(r,
+        timeout=5)
+      interval: 20s
+      timeout: 10s
+      start_period: 600s
+      retries: 30
+  asr:
+    build:
+      context: ../../services/asr
+    environment:
+      ASR_MODEL: ${ASR_MODEL:-large-v3}
+      ASR_DEVICE: ${ASR_DEVICE:-cpu}
+      ASR_COMPUTE_TYPE: ${ASR_COMPUTE_TYPE:-int8}
+      ASR_MODEL_CACHE: /models
+      SPEAKER_MODEL_REVISION: 0f99f2d0ebe89ac095bcc5903c4dd8f72b367286
+      HF_HUB_DISABLE_XET: '1'
+      HF_HUB_DOWNLOAD_TIMEOUT: '60'
+      HF_HUB_ETAG_TIMEOUT: '20'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    ports:
+    - 127.0.0.1:8101:8101
+    volumes:
+    - asr_models:/models
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD
+      - python
+      - -c
+      - import urllib.request; urllib.request.urlopen('http://localhost:8101/health/live',
+        timeout=2)
+      interval: 15s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  vision:
+    build:
+      context: ../../services/vision
+    environment:
+      VISION_MODEL: ${VISION_MODEL:-openbmb/MiniCPM-V-4.6}
+      HF_HOME: /models
+      HF_HUB_DISABLE_XET: '1'
+      HF_HUB_DOWNLOAD_TIMEOUT: '60'
+      HF_HUB_ETAG_TIMEOUT: '20'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    ports:
+    - 127.0.0.1:8102:8102
+    volumes:
+    - vision_models:/models
+    networks:
+    - default
+    healthcheck:
+      test:
+      - CMD
+      - python
+      - -c
+      - import urllib.request; urllib.request.urlopen('http://localhost:8102/health/live',
+        timeout=2)
+      interval: 15s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  object-storage-init:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    env_file:
+    - ../../.env
+    environment:
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+      S3_USE_SSL: 'false'
+    command: python -m app.bootstrap.ensure_bucket
+    networks:
+    - default
+    depends_on:
+      seaweedfs:
+        condition: service_started
+  migrate:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    image: pipechina-backend:dev
+    env_file:
+    - ../../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-peter}:${POSTGRES_PASSWORD:-123456}@postgres:5432/${POSTGRES_DB:-pipechina}
+      CELERY_BROKER_URL: amqp://${RABBITMQ_DEFAULT_USER:-peter}:${RABBITMQ_DEFAULT_PASS:-123456}@rabbitmq:5672//
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+      QDRANT_URL: http://qdrant:6333
+      NEO4J_URL: http://neo4j:7474
+      KNOWLEDGE_RUNTIME_URL: http://knowledge-runtime:8000
+      ASR_BASE_URL: http://asr:8101
+      VISION_BASE_URL: http://vision:8102
+      JWT_JWKS_URL: http://mock-idp:9001/.well-known/jwks.json
+      LOCAL_STORAGE_ROOT: /var/lib/pipechina/objects
+      LOCAL_STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+      AUTO_CREATE_SCHEMA: 'false'
+      AUTO_SEED: 'false'
+      RUN_TASKS_INLINE: 'false'
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_USE_SSL: 'false'
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+    volumes:
+    - backend_objects:/var/lib/pipechina/objects
+    restart: 'no'
+    networks:
+    - default
+    command:
+    - python
+    - -m
+    - app.bootstrap.development
+    depends_on:
+      postgres:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+  api:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    image: pipechina-backend:dev
+    env_file:
+    - ../../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-peter}:${POSTGRES_PASSWORD:-123456}@postgres:5432/${POSTGRES_DB:-pipechina}
+      CELERY_BROKER_URL: amqp://${RABBITMQ_DEFAULT_USER:-peter}:${RABBITMQ_DEFAULT_PASS:-123456}@rabbitmq:5672//
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+      QDRANT_URL: http://qdrant:6333
+      NEO4J_URL: http://neo4j:7474
+      KNOWLEDGE_RUNTIME_URL: http://knowledge-runtime:8000
+      ASR_BASE_URL: http://asr:8101
+      VISION_BASE_URL: http://vision:8102
+      JWT_JWKS_URL: http://mock-idp:9001/.well-known/jwks.json
+      LOCAL_STORAGE_ROOT: /var/lib/pipechina/objects
+      LOCAL_STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+      AUTO_CREATE_SCHEMA: 'false'
+      AUTO_SEED: 'false'
+      RUN_TASKS_INLINE: 'false'
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_USE_SSL: 'false'
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+    volumes:
+    - backend_objects:/var/lib/pipechina/objects
+    restart: unless-stopped
+    networks:
+    - default
+    ports:
+    - 127.0.0.1:8000:8000
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      mock-idp:
+        condition: service_started
+      object-storage-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+      - CMD
+      - python
+      - -c
+      - import urllib.request; urllib.request.urlopen('http://localhost:8000/health/live',
+        timeout=3)
+      interval: 10s
+      timeout: 5s
+      retries: 20
+  worker:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    image: pipechina-backend:dev
+    env_file:
+    - ../../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-peter}:${POSTGRES_PASSWORD:-123456}@postgres:5432/${POSTGRES_DB:-pipechina}
+      CELERY_BROKER_URL: amqp://${RABBITMQ_DEFAULT_USER:-peter}:${RABBITMQ_DEFAULT_PASS:-123456}@rabbitmq:5672//
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+      QDRANT_URL: http://qdrant:6333
+      NEO4J_URL: http://neo4j:7474
+      KNOWLEDGE_RUNTIME_URL: http://knowledge-runtime:8000
+      ASR_BASE_URL: http://asr:8101
+      VISION_BASE_URL: http://vision:8102
+      JWT_JWKS_URL: http://mock-idp:9001/.well-known/jwks.json
+      LOCAL_STORAGE_ROOT: /var/lib/pipechina/objects
+      LOCAL_STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+      AUTO_CREATE_SCHEMA: 'false'
+      AUTO_SEED: 'false'
+      RUN_TASKS_INLINE: 'false'
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_USE_SSL: 'false'
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+    volumes:
+    - backend_objects:/var/lib/pipechina/objects
+    restart: unless-stopped
+    networks:
+    - default
+    command:
+    - celery
+    - -A
+    - app.bootstrap.celery_app:celery_app
+    - worker
+    - -l
+    - INFO
+    - --concurrency=2
+    - -Q
+    - audio,ai_text,vision,report,knowledge_parse,knowledge_index,knowledge_eval,knowledge_query
+    depends_on: &id001
+      migrate:
+        condition: service_completed_successfully
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+  beat:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    image: pipechina-backend:dev
+    env_file:
+    - ../../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-peter}:${POSTGRES_PASSWORD:-123456}@postgres:5432/${POSTGRES_DB:-pipechina}
+      CELERY_BROKER_URL: amqp://${RABBITMQ_DEFAULT_USER:-peter}:${RABBITMQ_DEFAULT_PASS:-123456}@rabbitmq:5672//
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+      QDRANT_URL: http://qdrant:6333
+      NEO4J_URL: http://neo4j:7474
+      KNOWLEDGE_RUNTIME_URL: http://knowledge-runtime:8000
+      ASR_BASE_URL: http://asr:8101
+      VISION_BASE_URL: http://vision:8102
+      JWT_JWKS_URL: http://mock-idp:9001/.well-known/jwks.json
+      LOCAL_STORAGE_ROOT: /var/lib/pipechina/objects
+      LOCAL_STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+      AUTO_CREATE_SCHEMA: 'false'
+      AUTO_SEED: 'false'
+      RUN_TASKS_INLINE: 'false'
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_USE_SSL: 'false'
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+    volumes:
+    - backend_objects:/var/lib/pipechina/objects
+    restart: unless-stopped
+    networks:
+    - default
+    command:
+    - celery
+    - -A
+    - app.bootstrap.celery_app:celery_app
+    - beat
+    - -l
+    - INFO
+    - --schedule=/tmp/celerybeat-schedule
+    depends_on: *id001
+  mock-idp:
+    build:
+      context: ../..
+      dockerfile: dev/mock_idp/Dockerfile
+    ports:
+    - 127.0.0.1:9001:9001
+    restart: unless-stopped
+    networks:
+    - default
+  maintenance-worker:
+    build:
+      context: ../..
+      dockerfile: infra/docker/backend.Dockerfile
+    image: pipechina-backend:dev
+    env_file:
+    - ../../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-peter}:${POSTGRES_PASSWORD:-123456}@postgres:5432/${POSTGRES_DB:-pipechina}
+      CELERY_BROKER_URL: amqp://${RABBITMQ_DEFAULT_USER:-peter}:${RABBITMQ_DEFAULT_PASS:-123456}@rabbitmq:5672//
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+      QDRANT_URL: http://qdrant:6333
+      NEO4J_URL: http://neo4j:7474
+      KNOWLEDGE_RUNTIME_URL: http://knowledge-runtime:8000
+      ASR_BASE_URL: http://asr:8101
+      VISION_BASE_URL: http://vision:8102
+      JWT_JWKS_URL: http://mock-idp:9001/.well-known/jwks.json
+      LOCAL_STORAGE_ROOT: /var/lib/pipechina/objects
+      LOCAL_STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+      AUTO_CREATE_SCHEMA: 'false'
+      AUTO_SEED: 'false'
+      RUN_TASKS_INLINE: 'false'
+      S3_ENDPOINT_URL: http://seaweedfs:8333
+      S3_USE_SSL: 'false'
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-peter}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-123456}
+    volumes:
+    - backend_objects:/var/lib/pipechina/objects
+    restart: unless-stopped
+    networks:
+    - default
+    command:
+    - celery
+    - -A
+    - app.bootstrap.celery_app:celery_app
+    - worker
+    - -l
+    - INFO
+    - --concurrency=1
+    - -Q
+    - maintenance
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+  prometheus:
+    image: quay.io/prometheus/prometheus:v3.5.0
+    entrypoint:
+    - /bin/sh
+    - -c
+    command:
+    - umask 077; printf %s "$$OPS_METRICS_TOKEN" > /tmp/metrics.token; exec /bin/prometheus
+      --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus
+    environment:
+      OPS_METRICS_TOKEN: ${OPS_METRICS_TOKEN}
+    volumes:
+    - ../monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    - ../monitoring/alerts.yml:/etc/prometheus/alerts.yml:ro
+    - prometheus_data:/prometheus
+    ports:
+    - 127.0.0.1:9090:9090
+    networks:
+    - default
+    restart: unless-stopped
+  blackbox:
+    image: quay.io/prometheus/blackbox-exporter:v0.27.0
+    command:
+    - --config.file=/etc/blackbox/blackbox.yml
+    volumes:
+    - ../monitoring/blackbox.yml:/etc/blackbox/blackbox.yml:ro
+    networks:
+    - default
+    restart: unless-stopped
+  alertmanager:
+    image: quay.io/prometheus/alertmanager:v0.28.1
+    command:
+    - --config.file=/etc/alertmanager/alertmanager.yml
+    - --storage.path=/alertmanager
+    volumes:
+    - ../monitoring/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
+    - alertmanager_data:/alertmanager
+    ports:
+    - 127.0.0.1:9093:9093
+    networks:
+    - default
+    restart: unless-stopped
+networks:
+  default: {}
+volumes:
+  pg_data: {}
+  rabbitmq_data: {}
+  redis_data: {}
+  seaweed_data: {}
+  es_data: {}
+  qdrant_data: {}
+  neo4j_data: {}
+  knowledge_runtime_data: {}
+  knowledge_runtime_models: {}
+  knowledge_runtime_ocr: {}
+  asr_models: {}
+  vision_models: {}
+  backend_objects: {}
+  prometheus_data: {}
+  alertmanager_data: {}

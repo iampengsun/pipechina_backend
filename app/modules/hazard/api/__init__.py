@@ -1,0 +1,1 @@
+"""Hazard API package."""

@@ -1,0 +1,151 @@
+{
+  "docker_memory_bytes": 16748310528,
+  "runtime_disk_available_bytes": 11944935424,
+  "services": {
+    "alertmanager": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "api": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "asr": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "beat": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "blackbox": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "elasticsearch": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "knowledge-runtime": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "maintenance-worker": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "migrate": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null
+    },
+    "mock-idp": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "neo4j": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "object-storage-init": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null
+    },
+    "postgres": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "prometheus": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "qdrant": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    },
+    "rabbitmq": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "redis": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "seaweedfs": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "vision": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy"
+    },
+    "worker": {
+      "status": "running",
+      "exit_code": 0,
+      "health": null
+    }
+  },
+  "monitoring": [
+    {
+      "port": 8101,
+      "status": 200,
+      "result": {
+        "status": "ready",
+        "models_loaded": true
+      }
+    },
+    {
+      "port": 8102,
+      "status": 200,
+      "result": {
+        "status": "ready",
+        "models_loaded": true
+      }
+    },
+    {
+      "port": 9090,
+      "status": 200,
+      "result": [
+        {
+          "instance": "api:8000",
+          "health": "up"
+        },
+        {
+          "instance": "http://api:8000/health/ready",
+          "health": "up"
+        },
+        {
+          "instance": "http://asr:8101/health/ready",
+          "health": "up"
+        },
+        {
+          "instance": "http://vision:8102/health/ready",
+          "health": "up"
+        }
+      ]
+    },
+    {
+      "port": 9093,
+      "status": 200,
+      "result": []
+    }
+  ]
+}

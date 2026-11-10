@@ -1,0 +1,122 @@
+# Python 项目的构建方式；安装项目、构建 wheel 时使用。
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+# 项目元信息及运行所需依赖。
+[project]
+name = "pipechina-backend"
+version = "1.3.0"
+description = "国家油气管网智能生产运营辅助系统 V1.3 可替换模型后端（Python 3.14）"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+# 大部分依赖固定版本；uv.lock 进一步锁定完整依赖树。
+dependencies = [
+  # Web 服务、请求校验与环境变量配置。
+  "fastapi==0.141.1",
+  "uvicorn[standard]==0.52.4",
+  "pydantic==2.13.4",
+  "pydantic-settings==2.15.0",
+  # PostgreSQL 访问与数据库迁移。
+  "sqlalchemy[asyncio]==2.0.52",
+  "asyncpg==0.31.0",
+  "psycopg[binary]==3.3.4",
+  "alembic==1.19.1",
+  # HTTP 调用、JWT 验证、密码学与表单文件上传。
+  "httpx==0.28.1",
+  "PyJWT==2.15.0",
+  "cryptography==50.0.0",
+  "python-multipart==0.0.32",
+  # 异步任务队列与 Redis。
+  "celery==5.6.3",
+  "redis==8.1.0",
+  # S3 兼容存储、智能体流程、Word 文档处理与时区数据。
+  "boto3==1.43.79",
+  "langgraph==1.2.11",
+  "langgraph-checkpoint-postgres==3.1.3",
+  "python-docx==1.2.0",
+  "reportlab==5.0.1",
+  "tzdata==2026.3",
+  # Celery、AWS SDK 的类型声明，供静态类型检查使用。
+  "celery-types>=0.26.0",
+  "boto3-stubs~=1.43.79",
+  "mcp==2.2.0",
+  "gepa==0.1.4",
+]
+
+# 开发和 CI 工具；生产镜像使用 uv sync --no-dev，不安装此组。
+[dependency-groups]
+dev = [
+  "coverage==7.15.4",
+  "httpx2==2.12.0",
+  "pip-audit==2.10.1",
+  "pytest==9.1.1",
+  "pytest-asyncio==1.4.0",
+  "PyYAML==6.0.3",
+  "ruff==0.16.4",
+  "mypy==2.3.1",
+  "types-reportlab==5.0.0.20260911",
+  "pypdf==6.21.4",
+]
+
+# 指定安装包只包含 app，避免将脚本、测试和文档语料打进 wheel。
+# Docker 会安装项目，因此应保留明确的打包目标。
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+# 测试默认设置：自动运行异步测试、指定测试目录、遇到首个失败停止。
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+# --disable-warnings 隐藏警告汇总；CI 的 -W error 仍会将警告视为错误。
+addopts = "-q --disable-warnings --maxfail=1"
+
+# Ruff 同时负责格式化和代码检查；本地与 CI 共用规则。
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+# 自动生成的数据库迁移文件不参与 Ruff 检查和格式化。
+extend-exclude = ["alembic/versions"]
+
+[tool.ruff.lint]
+# E/F：基础错误；I：导入排序；UP：现代语法；B：易错写法；ASYNC：异步规则。
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+# 允许 FastAPI 的 Depends() 等调用出现在函数默认参数中。
+ignore = ["B008"]
+
+# 静态类型检查；CI 执行 mypy app scripts dev 时读取此配置。
+[tool.mypy]
+python_version = "3.14"
+# 让 mypy 理解 Pydantic 模型。
+plugins = ["pydantic.mypy"]
+# 提醒清理无效的 type: ignore，并检查未标注类型的函数体。
+warn_unused_ignores = true
+check_untyped_defs = true
+# 参数默认值为 None 时，要求类型显式包含 None。
+no_implicit_optional = true
+exclude = ["alembic"]
+
+# 第三方库类型信息缺失时的兼容豁免，不会关闭业务代码的类型检查。
+# 已安装部分类型声明；此段可在移除后完整运行 mypy 验证通过再删。
+[[tool.mypy.overrides]]
+module = ["boto3", "botocore", "botocore.*", "celery", "celery.*"]
+ignore_missing_imports = true
+
+# 只统计 app 的测试覆盖率，同时统计 if/else 等分支是否被覆盖。
+[tool.coverage.run]
+source = ["app"]
+branch = true
+
+# CI 质量门槛：总覆盖率低于 65% 时失败，并显示未覆盖的代码行。
+[tool.coverage.report]
+fail_under = 65
+show_missing = true
+# 报告中省略已达到 100% 覆盖率的文件。
+skip_covered = true
+
+# Minimum patched versions for audited transitive dependencies; uv.lock pins the selected releases.
+[tool.uv]
+constraint-dependencies = [
+  "certifi>=2026.10.18", "filelock>=4.2.1", "langgraph-sdk>=0.4.6",
+  "msgpack>=1.2.3", "opentelemetry-api>=1.45.1", "pillow>=13.0.0", "urllib3>=2.8.0",
+]

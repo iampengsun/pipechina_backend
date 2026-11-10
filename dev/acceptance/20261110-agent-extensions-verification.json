@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-10T08:06:29.496978+00:00",
+  "source_sha256": "271f8782f55ca6266d89100263a671d77195aeae01f8786833dd3967d239f831",
+  "features": [
+    "versioned skills",
+    "bounded dynamic branches",
+    "role evidence contexts and readback",
+    "human input pause/resume",
+    "MCP Tasks 2026-07-28 extension",
+    "GEPA-style reflective Pareto prompt search"
+  ],
+  "full_suite": {
+    "passed": 209,
+    "skipped": 2,
+    "branch_coverage_percent": 79,
+    "real_indexes_enabled": true
+  },
+  "final_investigation_regression": {
+    "passed": 20,
+    "includes_provider_unset_output_limit": true,
+    "includes_shared_parallel_budget": true
+  },
+  "static_checks": [
+    "ruff check",
+    "ruff format check",
+    "mypy app scripts dev",
+    "compileall",
+    "git diff --check"
+  ],
+  "http_operations": 221,
+  "documented_operations": 221,
+  "valid_local_document_links": 334,
+  "schema": {
+    "tables": 84,
+    "revision": "0002_agent_tasks"
+  },
+  "mcp_tools": 14,
+  "skill_packages": 3,
+  "llm_business_effectiveness_verified": false,
+  "qwen_probe": "20261110-agent-extensions-qwen.json",
+  "git": "working tree; existing user edits and staged document deletion preserved"
+}

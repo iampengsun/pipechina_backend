@@ -1,0 +1,103 @@
+{
+  "started_at": "2026-11-08T01:55:37.096812+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "asr",
+      "started_at": "2026-11-08T01:55:37.160416+00:00",
+      "status": "passed",
+      "result": {
+        "transcript": {
+          "diarization": {
+            "status": "completed",
+            "speakers": 2,
+            "method": "ecapa_cosine_average_linkage",
+            "identity_verified": false,
+            "cluster_threshold": 0.5,
+            "model_revision": "0f99f2d0ebe89ac095bcc5903c4dd8f72b367286"
+          },
+          "request_id": "80f79cc8-4ed4-4cc9-b20e-460249f9118e",
+          "language": "en",
+          "duration_ms": 22249,
+          "segments": [
+            {
+              "index": 0,
+              "start_ms": 20,
+              "end_ms": 3760,
+              "text": "This is a synthetic software acceptance test.",
+              "confidence": null,
+              "speaker_label": "SPEAKER_00"
+            },
+            {
+              "index": 1,
+              "start_ms": 4720,
+              "end_ms": 7800,
+              "text": "No field operation is authorized.",
+              "confidence": null,
+              "speaker_label": "SPEAKER_00"
+            },
+            {
+              "index": 2,
+              "start_ms": 8940,
+              "end_ms": 11260,
+              "text": "Valve Alpha has a demo label.",
+              "confidence": null,
+              "speaker_label": "SPEAKER_00"
+            },
+            {
+              "index": 3,
+              "start_ms": 12380,
+              "end_ms": 15760,
+              "text": "This is the second voice in a synthetic software test.",
+              "confidence": null,
+              "speaker_label": "SPEAKER_01"
+            },
+            {
+              "index": 4,
+              "start_ms": 16440,
+              "end_ms": 20980,
+              "text": "Please review the demo document and keep all field operations disabled.",
+              "confidence": null,
+              "speaker_label": "SPEAKER_01"
+            }
+          ],
+          "full_text": "This is a synthetic software acceptance test.No field operation is authorized.Valve Alpha has a demo label.This is the second voice in a synthetic software test.Please review the demo document and keep all field operations disabled."
+        },
+        "expert_validated": false
+      },
+      "finished_at": "2026-11-08T01:55:56.667298+00:00"
+    },
+    {
+      "name": "documents",
+      "started_at": "2026-11-08T01:55:56.668118+00:00",
+      "status": "passed",
+      "result": {
+        "cases": [
+          {
+            "case_id": "scanned_ocr",
+            "blocks": 1,
+            "job_id": "ba5dc59d-1ec1-438a-9bb4-55cb0ed5f3fa"
+          },
+          {
+            "case_id": "cross_page_table",
+            "blocks": 6,
+            "job_id": "fdb96499-2271-46dc-a28b-b522cc364efb"
+          }
+        ],
+        "expert_validated": false
+      },
+      "finished_at": "2026-11-08T01:56:28.807183+00:00"
+    },
+    {
+      "name": "vision",
+      "started_at": "2026-11-08T01:56:28.808200+00:00",
+      "status": "failed",
+      "reason": "real vision failed: HTTP 502",
+      "finished_at": "2026-11-08T01:56:28.855717+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T01:56:28.856115+00:00",
+  "status": "incomplete"
+}

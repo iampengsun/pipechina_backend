@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-11T05:38:38.622738+00:00",
+  "source_sha256": "5f420de027a044bbb4f2656c10ce706a8c158cb3f62c3cd9cf7d4998423d02b9",
+  "uv_lock_sha256": "eac6ce9ef6bbbd5bc42f6ae674f341c1f5327d910cc492b5771dc06c9bbf926c",
+  "gepa_version": "0.1.4",
+  "full_suite": {
+    "passed": 233,
+    "skipped": 2,
+    "coverage_percent": 79,
+    "real_es_qdrant_neo4j": true
+  },
+  "new_focused_cases": 12,
+  "schema_revision": "0003_station_locations",
+  "application_tables": 85,
+  "http_operations": 224,
+  "mcp_tools": 18,
+  "local_doc_links_checked": 556,
+  "basic_topics": 40,
+  "services_added": 0,
+  "migrations_added": 0,
+  "model_effectiveness_verified": false,
+  "real_weather_gis_verified": false,
+  "deployment_source_matches": true,
+  "deployment_method": "locked production dependency sync on project-owned local runtimes"
+}

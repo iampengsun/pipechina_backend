@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-11-07T05:10:03.292016+00:00",
+  "project": "pipechina-restore-8b3021696d",
+  "status": "passed",
+  "volumes": {
+    "alertmanager_data": "restored_and_compared",
+    "backend_objects": "restored_and_compared",
+    "es_data": "restored_and_compared",
+    "knowledge_runtime_data": "restored_and_compared",
+    "neo4j_data": "restored_and_compared",
+    "pg_data": "restored_and_compared",
+    "prometheus_data": "restored_and_compared",
+    "qdrant_data": "restored_and_compared",
+    "rabbitmq_data": "restored_and_compared",
+    "redis_data": "restored_and_compared",
+    "seaweed_data": "restored_and_compared"
+  },
+  "verified_tables": 75,
+  "index_verification": "archive file comparison; query-level recovery not claimed",
+  "finished_at": "2026-11-07T05:10:31.687809+00:00"
+}

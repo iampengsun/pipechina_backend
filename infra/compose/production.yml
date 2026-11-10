@@ -1,0 +1,37 @@
+x-production-env: &production-env
+  APP_ENV: production
+  JWT_ISSUER: ${JWT_ISSUER:?Set enterprise HTTPS JWT_ISSUER}
+  JWT_JWKS_URL: ${JWT_JWKS_URL:?Set enterprise HTTPS JWT_JWKS_URL}
+  LOCAL_STORAGE_PUBLIC_BASE_URL: ${LOCAL_STORAGE_PUBLIC_BASE_URL:?Set public HTTPS API URL}
+  S3_ENDPOINT_URL: ${S3_ENDPOINT_URL:?Set authenticated HTTPS storage endpoint}
+  S3_PUBLIC_ENDPOINT_URL: ${S3_PUBLIC_ENDPOINT_URL:?Set public HTTPS storage endpoint}
+  S3_USE_SSL: 'true'
+  AUTO_CREATE_SCHEMA: 'false'
+  AUTO_SEED: 'false'
+  RUN_TASKS_INLINE: 'false'
+services:
+  mock-idp:
+    profiles: [development-only]
+  migrate:
+    env_file: !override
+      - ${PIPECHINA_PRODUCTION_ENV_FILE:?Set production env file}
+    command: [alembic, upgrade, head]
+    environment: *production-env
+  api:
+    env_file: !override
+      - ${PIPECHINA_PRODUCTION_ENV_FILE:?Set production env file}
+    environment: *production-env
+    depends_on:
+      mock-idp: !reset null
+  worker:
+    env_file: !override
+      - ${PIPECHINA_PRODUCTION_ENV_FILE:?Set production env file}
+    environment: *production-env
+  maintenance-worker:
+    env_file: !override
+      - ${PIPECHINA_PRODUCTION_ENV_FILE:?Set production env file}
+    environment: *production-env
+  beat:
+    env_file: !override
+      - ${PIPECHINA_PRODUCTION_ENV_FILE:?Set production env file}
+    environment: *production-env

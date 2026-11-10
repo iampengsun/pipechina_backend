@@ -1,0 +1,32 @@
+[
+  {
+    "username": "admin",
+    "password": "123456",
+    "subject": "mock-admin",
+    "display_name": "管理员"
+  },
+  {
+    "username": "peter",
+    "password": "123456",
+    "subject": "mock-peter",
+    "display_name": "Peter"
+  },
+  {
+    "username": "tom",
+    "password": "123456",
+    "subject": "mock-tom",
+    "display_name": "Tom"
+  },
+  {
+    "username": "reviewer",
+    "password": "123456",
+    "subject": "mock-reviewer",
+    "display_name": "开发评测复核员"
+  },
+  {
+    "username": "acceptance",
+    "password": "123456",
+    "subject": "mock-acceptance",
+    "display_name": "开发独立业务验收员"
+  }
+]

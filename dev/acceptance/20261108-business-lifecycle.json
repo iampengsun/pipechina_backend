@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-11-08T02:05:15.148468+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "work_order",
+      "started_at": "2026-11-08T02:05:15.204751+00:00",
+      "status": "passed",
+      "result": {
+        "work_order_id": "328d2eff-1a39-46d1-b959-b3076064ef1c",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-08T02:06:26.887140+00:00"
+    },
+    {
+      "name": "reminders",
+      "started_at": "2026-11-08T02:06:26.888935+00:00",
+      "status": "passed",
+      "result": {
+        "reminder_id": "1da72a99-fe61-4319-9e26-3728c3f96bd8",
+        "status": "resolved",
+        "acknowledgement_preserved": true
+      },
+      "finished_at": "2026-11-08T02:06:26.893959+00:00"
+    },
+    {
+      "name": "memory",
+      "started_at": "2026-11-08T02:06:26.894400+00:00",
+      "status": "failed",
+      "reason": "job failed: BUSINESS_JOB_FAILED",
+      "finished_at": "2026-11-08T02:09:32.966138+00:00"
+    }
+  ],
+  "resources": {
+    "work_order_id": "328d2eff-1a39-46d1-b959-b3076064ef1c",
+    "event_id": "6b831e5c-a460-4935-84e2-bdc760929a4c",
+    "event_version_id": "981f3fa6-61de-4d59-ad7c-bb1f7a834678",
+    "fixture_provenance": "synthetic_fixture_no_model",
+    "reminder_id": "1da72a99-fe61-4319-9e26-3728c3f96bd8"
+  },
+  "finished_at": "2026-11-08T02:09:32.967640+00:00",
+  "status": "incomplete"
+}

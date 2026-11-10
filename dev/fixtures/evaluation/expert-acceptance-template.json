@@ -1,0 +1,7 @@
+{
+  "expert_confirmed": false,
+  "expert_user_ids": [],
+  "approval_reference": "待真实业务专家确认",
+  "improvement_ids": {},
+  "targets": {"rag": {}, "agent": {}}
+}

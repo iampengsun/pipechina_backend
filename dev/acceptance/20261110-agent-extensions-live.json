@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-10T08:06:33.094499+00:00",
+  "llm_effectiveness_verified": false,
+  "readiness": {
+    "status": 200,
+    "body": {
+      "status": "ready"
+    }
+  },
+  "skills": [
+    {
+      "name": "knowledge-change-review",
+      "description": "检查规范撤回、到期或新版对当前调查、工单及经验的适用性影响。",
+      "version": "1.0.0",
+      "digest": "adaccfe724aa8e3fd304746cd9c455173c4f427bafb0432f34027d0dc2d39e17"
+    },
+    {
+      "name": "recurrent-hazard-review",
+      "description": "复盘重复异常和整改后再次登记，核对设备故障身份、历史实测与独立验收。",
+      "version": "1.0.0",
+      "digest": "561ef6e6baaca7c5ede247fe9c85bb3bb9a2bea1f19886a47035ff1b8a99e0ce"
+    },
+    {
+      "name": "valve-leak-investigation",
+      "description": "调查阀门、密封或管路渗漏，核对规范、当前观察和处置前提。",
+      "version": "1.0.0",
+      "digest": "50be4c6ec4056bc45838c65e50be1cda1d74d57091261ba2c74654dd3da46f12"
+    }
+  ],
+  "http_operations": 221,
+  "mcp_tools": [
+    "start_investigation",
+    "trace_case_relations",
+    "find_recurrent_hazards",
+    "assess_change_impact",
+    "search_events",
+    "search_work_orders",
+    "search_handover",
+    "get_case_context",
+    "search_knowledge",
+    "search_experiences",
+    "get_evaluation_improvement",
+    "submit_case_observation",
+    "get_work_order_verification",
+    "get_impact_review"
+  ],
+  "mcp_discovery": {
+    "cacheScope": "private",
+    "capabilities": {
+      "extensions": {
+        "io.modelcontextprotocol/tasks": {}
+      },
+      "prompts": {
+        "listChanged": true
+      },
+      "resources": {
+        "listChanged": true,
+        "subscribe": true
+      },
+      "tools": {
+        "listChanged": true
+      }
+    },
+    "resultType": "complete",
+    "supportedVersions": [
+      "2026-07-28"
+    ],
+    "ttlMs": 0,
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "pipechina-investigation",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

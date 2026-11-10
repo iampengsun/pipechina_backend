@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-11-08T02:10:59.002934+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "steps": [
+    {
+      "name": "runtime_and_authentication",
+      "status": "passed"
+    }
+  ],
+  "resources": {
+    "base_id": "513160fb-18a4-4a64-b557-1d9a57ddf27e",
+    "version_id": "1e0ba7ca-0724-4284-bbbe-4f7d79152512"
+  },
+  "status": "failed",
+  "failure": "job d7c58c42-d528-427f-b924-478a0253f3c3 ended failed: KNOWLEDGE_PROCESSING_FAILED",
+  "finished_at": "2026-11-08T02:14:05.098255+00:00"
+}

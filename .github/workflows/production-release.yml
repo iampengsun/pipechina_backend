@@ -1,0 +1,27 @@
+name: production-release
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    uses: ./.github/workflows/ci.yml
+  production:
+    needs: verify
+    runs-on: [self-hosted, pipechina-production]
+    environment: production
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+      - name: Restore locked tooling
+        run: uv sync --frozen --group dev
+      - name: Validate and deploy approved release
+        env:
+          PIPECHINA_PRODUCTION_ENV: ${{ vars.PIPECHINA_PRODUCTION_ENV }}
+          PIPECHINA_QUALITY_GATE: ${{ vars.PIPECHINA_QUALITY_GATE }}
+          PIPECHINA_RESTORE_REPORT: ${{ vars.PIPECHINA_RESTORE_REPORT }}
+        run: |
+          uv run python scripts/deploy_production.py \
+            --env-file "$PIPECHINA_PRODUCTION_ENV" \
+            --quality-gate "$PIPECHINA_QUALITY_GATE" \
+            --restore-report "$PIPECHINA_RESTORE_REPORT" --apply

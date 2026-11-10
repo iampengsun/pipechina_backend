@@ -1,0 +1,4945 @@
+{
+  "schema_version": 3,
+  "corpus_name": "青衡管网生产运行知识库",
+  "document_count": 60,
+  "version_count": 75,
+  "formats": {
+    ".pdf": 50,
+    ".docx": 13,
+    ".xlsx": 6,
+    ".html": 3,
+    ".md": 2,
+    ".txt": 1
+  },
+  "layouts": {
+    "illustrated": 7,
+    "scan": 7,
+    "two_column": 18,
+    "mixed": 8,
+    "landscape": 10,
+    "word_tables": 13,
+    "workbook": 6,
+    "web_article": 3,
+    "structured_text": 2,
+    "plain_text": 1
+  },
+  "documents": [
+    {
+      "code": "QH-STD-2025-001",
+      "title": "临川输气站设备缺陷分级与销项管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-001-v1.pdf",
+          "path": "standards/QH-STD-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3753,
+          "size_bytes": 229739,
+          "sha256": "c020672180dc5db083ad8377eeb9d2d2bee53bd5c6962af8ad15dc487ae081cc",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-STD-2025-001-v2.pdf",
+          "path": "standards/QH-STD-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3811,
+          "size_bytes": 231210,
+          "sha256": "13836ea2056c7464df84dc94e4033384deefb681a3702409c03bf6a08e176cc4",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-002",
+      "title": "北岑分输站运行记录与电子证据管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-002-v1.pdf",
+          "path": "standards/QH-STD-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3744,
+          "size_bytes": 3917290,
+          "sha256": "6045a4d2a4e17d436ab7be9c0bb078ab1dd4cdad654785617cba6f35297f87dd",
+          "pages": 8,
+          "image_only_pages": 8
+        },
+        {
+          "number": 2,
+          "filename": "QH-STD-2025-002-v2.pdf",
+          "path": "standards/QH-STD-2025-002-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3802,
+          "size_bytes": 3967259,
+          "sha256": "c381e1f0e280c33f5d139a2f54693d3bfe454a804b2b5cd2236e4c425a20f126",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-003",
+      "title": "河源压气站计量数据复核与差异管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-003-v1.pdf",
+          "path": "standards/QH-STD-2025-003-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3746,
+          "size_bytes": 230098,
+          "sha256": "e6f463f3af0c43d070be8a97a2ff97b52c3ea9be4f609abb5c484a3509f638f9",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-STD-2025-003-v2.pdf",
+          "path": "standards/QH-STD-2025-003-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3804,
+          "size_bytes": 231653,
+          "sha256": "f1f59d878dc58d35421d1d35e7b54acbaa45139896100c1284c0dfa9ccb6f1a8",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-004",
+      "title": "青岳末站备品备件验收与追溯管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-004-v1.pdf",
+          "path": "standards/QH-STD-2025-004-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-04"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3735,
+          "size_bytes": 2294109,
+          "sha256": "9e4405f45b4a79e492892330c3f436e0569b4501f683c1895afd6f3ee25ae9cd",
+          "pages": 8,
+          "image_only_pages": 4
+        },
+        {
+          "number": 2,
+          "filename": "QH-STD-2025-004-v2.pdf",
+          "path": "standards/QH-STD-2025-004-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-04"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3793,
+          "size_bytes": 2329948,
+          "sha256": "2342a44a0ca0a5402b68b29f14cdfadfe44300fdfac134a77a495490ec434ffd",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-005",
+      "title": "栖霞清管站承包商进站与作业资料管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-005-v1.pdf",
+          "path": "standards/QH-STD-2025-005-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-05"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3746,
+          "size_bytes": 233175,
+          "sha256": "581d90c9139c87f8cb22dd2944d0c72954e0c20f244a414243ebc7a0a511c8f5",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-006",
+      "title": "东澜计量站仪表校验记录与证书管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-006-v1.pdf",
+          "path": "standards/QH-STD-2025-006-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-06"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3738,
+          "size_bytes": 229319,
+          "sha256": "74df517ca93ac689c3e0ad9119947c597ef3a0ea644d33c61b13884b93bbf313",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-007",
+      "title": "临川输气站生产文件版本与受控分发",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-007-v1.docx",
+          "path": "standards/QH-STD-2025-007-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-07"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3699,
+          "size_bytes": 107742,
+          "sha256": "c2cc7086861f7bcbe476e2e834ba22c7a987cb94258fde2a8a33c96a12a77a87"
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-008",
+      "title": "北岑分输站巡检路线与任务完成认定",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-008-v1.docx",
+          "path": "standards/QH-STD-2025-008-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-08"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3694,
+          "size_bytes": 108220,
+          "sha256": "560caa0e836ae2b36cc8c1ea54081915791d0b3abc0fadc38e15321f96c9aff2"
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-009",
+      "title": "河源压气站交接班事项闭环管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-009-v1.xlsx",
+          "path": "standards/QH-STD-2025-009-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-09"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3701,
+          "size_bytes": 17454,
+          "sha256": "e4b2152f7ac7288745b51ca69f04cd72ea34645127475a4b453c1974e3a37a5f"
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-010",
+      "title": "青岳末站运行异常报告与升级管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-010-v1.html",
+          "path": "standards/QH-STD-2025-010-v1.html",
+          "mime_type": "text/html",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-10"
+          ],
+          "authority": "内部",
+          "layout": "web_article",
+          "body_characters": 3741,
+          "size_bytes": 108846,
+          "sha256": "7e4d2c63646acedf40dc0d08def369eecc7b184144e7f01b12156a1fb503a782"
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-011",
+      "title": "栖霞清管站防汛检查与季节性风险管理",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-011-v1.pdf",
+          "path": "standards/QH-STD-2025-011-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-11"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3745,
+          "size_bytes": 234562,
+          "sha256": "8652566e1b5682de21d226021c844578550d21b8f16cbd5a84ba968edbf1ed5e",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-STD-2025-012",
+      "title": "东澜计量站培训记录与岗位能力确认",
+      "kind": "standard",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-STD-2025-012-v1.pdf",
+          "path": "standards/QH-STD-2025-012-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-12"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3735,
+          "size_bytes": 3929590,
+          "sha256": "5099b520bb25273919242baadd0ef785cf0640c4cf6017d4fc5fbfaeeeff8bd5",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-001",
+      "title": "临川输气站过滤分离器状态监测手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-001-v1.pdf",
+          "path": "manuals/QH-MAN-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3749,
+          "size_bytes": 231060,
+          "sha256": "b65aac9d39c8108d34fbb5ee90443667655987c16b74a55863a85cd5e6fcccfd",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-MAN-2025-001-v2.pdf",
+          "path": "manuals/QH-MAN-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3807,
+          "size_bytes": 232565,
+          "sha256": "d8c9aeda36794fe9b6e03774fbb6371b6a4960a525cd8165e553079223d609b0",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-002",
+      "title": "北岑分输站调压撬指示一致性检查手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-002-v1.pdf",
+          "path": "manuals/QH-MAN-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3739,
+          "size_bytes": 2271355,
+          "sha256": "92dc23314775f97259b534456c8d0e734c5c629de156142edddc6b55e3982e25",
+          "pages": 8,
+          "image_only_pages": 4
+        },
+        {
+          "number": 2,
+          "filename": "QH-MAN-2025-002-v2.pdf",
+          "path": "manuals/QH-MAN-2025-002-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3797,
+          "size_bytes": 2307045,
+          "sha256": "b889820cdc1237d40567eb435aeeefe21fd0cc42374ff6326bdec32384996591",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-003",
+      "title": "河源压气站计量撬数据质量维护手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-003-v1.pdf",
+          "path": "manuals/QH-MAN-2025-003-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3745,
+          "size_bytes": 233257,
+          "sha256": "f3e4c6f323e96fc55e42049a2d1cb2ef2682d62bd0e290a1a8b495dfdb5a008f",
+          "pages": 11,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-MAN-2025-003-v2.pdf",
+          "path": "manuals/QH-MAN-2025-003-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3803,
+          "size_bytes": 234740,
+          "sha256": "0c9fe6a01ce9a2111350a7749c1dc48c3f7ab89a9d7960cdf7db3c7ffc3d0817",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-004",
+      "title": "青岳末站压缩机辅助系统记录手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-004-v1.pdf",
+          "path": "manuals/QH-MAN-2025-004-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-04"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3733,
+          "size_bytes": 231950,
+          "sha256": "632faacdc024d2667feb216ac1970d5f6c9b6633e8c373c117e5bbe6a230334b",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-005",
+      "title": "栖霞清管站收发球设施档案维护手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-005-v1.docx",
+          "path": "manuals/QH-MAN-2025-005-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-05"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3678,
+          "size_bytes": 108311,
+          "sha256": "9228ac1fa240b961fbcc6701c520fe4d483f82eee3297376438186dc4dec606c"
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-006",
+      "title": "东澜计量站阀室远传单元维护手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-006-v1.docx",
+          "path": "manuals/QH-MAN-2025-006-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-06"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3683,
+          "size_bytes": 107844,
+          "sha256": "90a3068eca281e5a444a62df34ae8354e776b17e550fe093c9fa7c02d42e5510"
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-007",
+      "title": "临川输气站在线分析仪样品记录手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-007-v1.xlsx",
+          "path": "manuals/QH-MAN-2025-007-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-07"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3698,
+          "size_bytes": 17467,
+          "sha256": "9c27e48b37ad7e8c01b61af671e75237869969c5cb6e11a7a57abc89ef8fa884"
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-008",
+      "title": "北岑分输站通信机柜巡检手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-008-v1.md",
+          "path": "manuals/QH-MAN-2025-008-v1.md",
+          "mime_type": "text/markdown",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-08"
+          ],
+          "authority": "内部",
+          "layout": "structured_text",
+          "body_characters": 3682,
+          "size_bytes": 11072,
+          "sha256": "d84b2fc16aabf693507d2e3f7e036ddd56f8197003d1697b9038afd44ed1bf42"
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-009",
+      "title": "河源压气站供电监测记录维护手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-009-v1.pdf",
+          "path": "manuals/QH-MAN-2025-009-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-09"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3729,
+          "size_bytes": 231212,
+          "sha256": "fe17209a2331c806b90ceaa5f26f2dd38f45f11f0f30fb3301e02bdd401a9d8c",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-010",
+      "title": "青岳末站可燃气体检测档案手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-010-v1.pdf",
+          "path": "manuals/QH-MAN-2025-010-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-10"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3727,
+          "size_bytes": 3905919,
+          "sha256": "85232dc578f0adf41390d2b4e0529f42762d1f66826f145e1b0f95003523bf2e",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-011",
+      "title": "栖霞清管站阴极保护巡测数据手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-011-v1.pdf",
+          "path": "manuals/QH-MAN-2025-011-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-11"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3722,
+          "size_bytes": 231039,
+          "sha256": "e567d54f9825da7529f4b197dc04e455a3a41777c0a34a55169505dee785bd0f",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-MAN-2025-012",
+      "title": "东澜计量站视频巡检证据导出手册",
+      "kind": "manual",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-MAN-2025-012-v1.pdf",
+          "path": "manuals/QH-MAN-2025-012-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-12"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3723,
+          "size_bytes": 2269701,
+          "sha256": "21d068910b1eccfb5ec49a63e7897336f782229ad022a05499eb84b008cb3d46",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-001",
+      "title": "临川输气站重复告警合并与复核流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-001-v1.pdf",
+          "path": "procedures/QH-OPS-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3732,
+          "size_bytes": 233919,
+          "sha256": "52edaacfdea83460ef9a56c805be1a4b96b9e9b838a78ee234114171ceecc9e2",
+          "pages": 11,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-OPS-2025-001-v2.pdf",
+          "path": "procedures/QH-OPS-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3790,
+          "size_bytes": 235360,
+          "sha256": "01dcaa07bf9fb781ead65c98318e2865ccfc46124ba5871cd4963063f96aec40",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-002",
+      "title": "北岑分输站缺陷工单转派与复验流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-002-v1.pdf",
+          "path": "procedures/QH-OPS-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3724,
+          "size_bytes": 229330,
+          "sha256": "63c0b29ce523d9d0bc40bfd72b707f3bed52449e82d84ecc7ffdf0f56b848c9e",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-OPS-2025-002-v2.pdf",
+          "path": "procedures/QH-OPS-2025-002-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3782,
+          "size_bytes": 230869,
+          "sha256": "8c32ef2d9b6fad46d2e2e5a72b98f74d8d926257a6d0cc5311ba489d64f7f642",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-003",
+      "title": "河源压气站计量差异联合复核流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-003-v1.docx",
+          "path": "procedures/QH-OPS-2025-003-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3674,
+          "size_bytes": 107227,
+          "sha256": "a973de224c6c6d58e416267db2e56321800a2b63a4ba5dd50057e2d54ed16880"
+        },
+        {
+          "number": 2,
+          "filename": "QH-OPS-2025-003-v2.docx",
+          "path": "procedures/QH-OPS-2025-003-v2.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-03"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3732,
+          "size_bytes": 107308,
+          "sha256": "70de64a0dc644da820c3aae347bcec0da4ff22c351915a70617b91cc5306f368"
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-004",
+      "title": "青岳末站远传中断记录补录流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-004-v1.docx",
+          "path": "procedures/QH-OPS-2025-004-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-04"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3666,
+          "size_bytes": 106083,
+          "sha256": "6d91b0549fb9ab19eba954636ac4f50c001ba90949ec25e8bc22baaeef3746bc"
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-005",
+      "title": "栖霞清管站备件替代技术确认流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-005-v1.xlsx",
+          "path": "procedures/QH-OPS-2025-005-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-05"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3676,
+          "size_bytes": 17445,
+          "sha256": "5e85ab7fa537090c403e9318899750044ce0fc1f37b170ad7919062f389529d1"
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-006",
+      "title": "东澜计量站巡检图片证据复核流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-006-v1.html",
+          "path": "procedures/QH-OPS-2025-006-v1.html",
+          "mime_type": "text/html",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-06"
+          ],
+          "authority": "内部",
+          "layout": "web_article",
+          "body_characters": 3729,
+          "size_bytes": 109582,
+          "sha256": "a31a527a3f7f7d81c4e589ef0dfce3aac442e1906ed6ab6dd9b72fd26983aa2c"
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-007",
+      "title": "临川输气站班组待办清单移交流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-007-v1.pdf",
+          "path": "procedures/QH-OPS-2025-007-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-07"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3726,
+          "size_bytes": 228325,
+          "sha256": "2742277f0febe0984c680b717383ad695b3d229c120c597c7bb9c057ef87f11a",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-008",
+      "title": "北岑分输站生产日报更正与重发流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-008-v1.pdf",
+          "path": "procedures/QH-OPS-2025-008-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-08"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3726,
+          "size_bytes": 3921868,
+          "sha256": "d5bb4117a313738d9963b07b4d3d309426e52de0d7c83cb72bf96e83bcb40e3c",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-009",
+      "title": "河源压气站会议决议转工单流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-009-v1.pdf",
+          "path": "procedures/QH-OPS-2025-009-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-09"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3722,
+          "size_bytes": 229317,
+          "sha256": "37b9f4d5a12a06a158afb17593eab8b5bce650298875957ca53e74518254c11b",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-OPS-2025-010",
+      "title": "青岳末站季节性专项检查闭环流程",
+      "kind": "procedure",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-OPS-2025-010-v1.pdf",
+          "path": "procedures/QH-OPS-2025-010-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-10"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3722,
+          "size_bytes": 2284908,
+          "sha256": "6ae96ba2e4872861b1c313cdf3cfb075fc9cf7af7e6a0732061e1e363be64a6e",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-001",
+      "title": "栖霞清管站计量曲线突跳调查报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-001-v1.pdf",
+          "path": "cases/QH-INC-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3955,
+          "size_bytes": 237113,
+          "sha256": "0f18d99bdd8cb13a67c4759c2ab26ca93d2b688f7ff41c326ecc72c80c1aa739",
+          "pages": 11,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-INC-2025-001-v2.pdf",
+          "path": "cases/QH-INC-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 4013,
+          "size_bytes": 238287,
+          "sha256": "c256ebb09d17299dc9123ffb4772455e65477ee6a0d1e379aced21fefaaca6d9",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-002",
+      "title": "东澜计量站远传数值冻结调查报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-002-v1.pdf",
+          "path": "cases/QH-INC-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3935,
+          "size_bytes": 233560,
+          "sha256": "62f2e7d901f6b54491c2cc3a086d2489decae6607a9b586f48f5e63a7a4e65e0",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-INC-2025-002-v2.pdf",
+          "path": "cases/QH-INC-2025-002-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3993,
+          "size_bytes": 234719,
+          "sha256": "665d2e344da7fe430af00d8730f77952bbb4b42a7f1ce8f1b20d71d9e17e2d88",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-003",
+      "title": "临川输气站备件批次错配调查报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-003-v1.docx",
+          "path": "cases/QH-INC-2025-003-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-03"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3893,
+          "size_bytes": 107311,
+          "sha256": "90e1ecd078c258deb58e3cec0ef79b06d4a0e48886a5be2f65fc8c7202e5f00d"
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-004",
+      "title": "北岑分输站交接事项遗漏调查报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-004-v1.docx",
+          "path": "cases/QH-INC-2025-004-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-04"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3873,
+          "size_bytes": 108052,
+          "sha256": "a734e2764178c3a1ea021b7af5284724f4b1fa456822e6b25936ea58e81581d2"
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-005",
+      "title": "河源压气站排水沟堵塞复盘报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-005-v1.xlsx",
+          "path": "cases/QH-INC-2025-005-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-05"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3900,
+          "size_bytes": 17663,
+          "sha256": "36750374466905ddb555c1bfafdeaf51a99c3a034208a1abed9ab51f50ff87f9"
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-006",
+      "title": "青岳末站巡检照片误判复核报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-006-v1.txt",
+          "path": "cases/QH-INC-2025-006-v1.txt",
+          "mime_type": "text/plain",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-06"
+          ],
+          "authority": "内部",
+          "layout": "plain_text",
+          "body_characters": 3892,
+          "size_bytes": 11595,
+          "sha256": "5de47ea56b91147ec9a340a597583f8b4ea6ad6bdbf0d6d32b40fd12310952bb"
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-007",
+      "title": "栖霞清管站仪表证书关联错误报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-007-v1.pdf",
+          "path": "cases/QH-INC-2025-007-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-07"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3917,
+          "size_bytes": 233218,
+          "sha256": "a4ee4697cf6d77e1832093ef2dca85dcabfc5c9396f42b0497962a6821e87c6d",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-008",
+      "title": "东澜计量站日报指标重复统计报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-008-v1.pdf",
+          "path": "cases/QH-INC-2025-008-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-08"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3933,
+          "size_bytes": 4027924,
+          "sha256": "a44b66576a58bde4917c4a7a252c277cebad7d321752f7e05e03c481c271d74c",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-009",
+      "title": "临川输气站承包商资料交付缺项报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-009-v1.pdf",
+          "path": "cases/QH-INC-2025-009-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-09"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3919,
+          "size_bytes": 231847,
+          "sha256": "6a0f63a53669a71463364c9dd63162daf00b8fb593030e9ff8f356444da302e5",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-INC-2025-010",
+      "title": "北岑分输站通信主备切换复盘报告",
+      "kind": "case",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-INC-2025-010-v1.pdf",
+          "path": "cases/QH-INC-2025-010-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-10"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3905,
+          "size_bytes": 2362956,
+          "sha256": "e449a44fc5e379289904f410e18df061c7cb81915ad28417074d713c216db94b",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-001",
+      "title": "河源压气站周一白班运行交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-001-v1.pdf",
+          "path": "handovers/QH-HOV-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3904,
+          "size_bytes": 232991,
+          "sha256": "f114812ba5de091efcb8f774ae48bad99512eac2434bee9499e558ea3a439606",
+          "pages": 11,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-HOV-2025-001-v2.pdf",
+          "path": "handovers/QH-HOV-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-01"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3962,
+          "size_bytes": 234187,
+          "sha256": "0ec7453cc5e0cb91c5b3d15296d8d2ca7655dd2252f84be77e68fa3edda83009",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-002",
+      "title": "青岳末站夜班通信恢复交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-002-v1.pdf",
+          "path": "handovers/QH-HOV-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3903,
+          "size_bytes": 229946,
+          "sha256": "33dcd6250138ee6202fd73d264325edb24d4b1282515fa61b3834e66563a26f7",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-HOV-2025-002-v2.pdf",
+          "path": "handovers/QH-HOV-2025-002-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-02"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3961,
+          "size_bytes": 231112,
+          "sha256": "81275346252f2c335dcf77b42325a6af4e87c2fab66dcecd9b9b5a102f908b78",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-003",
+      "title": "栖霞清管站雨后巡检交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-003-v1.docx",
+          "path": "handovers/QH-HOV-2025-003-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-03"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3860,
+          "size_bytes": 108435,
+          "sha256": "df3e4e8792fd1dcfe057d9386a8afe3fd1ec6a7f4b26aeadb4f0a5fbd845e2a2"
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-004",
+      "title": "东澜计量站检修窗口结束交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-004-v1.docx",
+          "path": "handovers/QH-HOV-2025-004-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-04"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3838,
+          "size_bytes": 107842,
+          "sha256": "3dd0db75b9ebe33859c3601f48758c0856b93b15584033bb9887ce7a28cd15ee"
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-005",
+      "title": "临川输气站计量复核值班记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-005-v1.xlsx",
+          "path": "handovers/QH-HOV-2025-005-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-05"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3851,
+          "size_bytes": 17554,
+          "sha256": "375cd820413254a9cc58f66cf3659aca3181f0b172ef568acd8d88b167df932e"
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-006",
+      "title": "北岑分输站专项检查事项交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-006-v1.md",
+          "path": "handovers/QH-HOV-2025-006-v1.md",
+          "mime_type": "text/markdown",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-06"
+          ],
+          "authority": "内部",
+          "layout": "structured_text",
+          "body_characters": 3856,
+          "size_bytes": 11490,
+          "sha256": "4ec7d7475562a3fec128f9237f5b5b1f96d56bf32a3114804a1c3467e6fcb28c"
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-007",
+      "title": "河源压气站备件到货值班记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-007-v1.pdf",
+          "path": "handovers/QH-HOV-2025-007-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-07"
+          ],
+          "authority": "内部",
+          "layout": "illustrated",
+          "body_characters": 3902,
+          "size_bytes": 231073,
+          "sha256": "7ab8576ce7ca067263d68ca21cf8aa95fecf2782bb08eabda382d0b8c8482068",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-HOV-2025-008",
+      "title": "青岳末站月末资料归档交接记录",
+      "kind": "handover",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-HOV-2025-008-v1.pdf",
+          "path": "handovers/QH-HOV-2025-008-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-08"
+          ],
+          "authority": "内部",
+          "layout": "scan",
+          "body_characters": 3907,
+          "size_bytes": 4025524,
+          "sha256": "c49b047721407c4a4ee1077337081131736dc5b15311b0288448d1cb137f11ca",
+          "pages": 8,
+          "image_only_pages": 8
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-001",
+      "title": "栖霞清管站关于调整缺陷复核时限的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-001-v1.pdf",
+          "path": "notices/QH-NOT-2025-001-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-01"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3726,
+          "size_bytes": 230181,
+          "sha256": "634706a6eebc787ef668ee9eb269c5c6642db3782936e282984f43cc4ba63166",
+          "pages": 8,
+          "image_only_pages": 0
+        },
+        {
+          "number": 2,
+          "filename": "QH-NOT-2025-001-v2.pdf",
+          "path": "notices/QH-NOT-2025-001-v2.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2026-07-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-01"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3784,
+          "size_bytes": 231455,
+          "sha256": "c8accb0d428b37164f2f64d4109c2061c2cc1de1e09cf56383827febab261bbb",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-002",
+      "title": "东澜计量站关于开展计量数据专项复核的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-002-v1.pdf",
+          "path": "notices/QH-NOT-2025-002-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-02"
+          ],
+          "authority": "内部",
+          "layout": "mixed",
+          "body_characters": 3715,
+          "size_bytes": 2255401,
+          "sha256": "f038799f3ceec6528070b1e00aeeed75c0295ab3cd281420ba424f331ff4411b",
+          "pages": 8,
+          "image_only_pages": 4
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-003",
+      "title": "临川输气站关于加强汛后设施复查的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-003-v1.pdf",
+          "path": "notices/QH-NOT-2025-003-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "LC-03"
+          ],
+          "authority": "内部",
+          "layout": "landscape",
+          "body_characters": 3704,
+          "size_bytes": 234139,
+          "sha256": "6a6ba32ee5c4b4cdc07a5253e04f5693f5c36367df5e8a95508866b9b30c797b",
+          "pages": 11,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-004",
+      "title": "北岑分输站关于启用新版交接清单的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-004-v1.pdf",
+          "path": "notices/QH-NOT-2025-004-v1.pdf",
+          "mime_type": "application/pdf",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "BC-04"
+          ],
+          "authority": "内部",
+          "layout": "two_column",
+          "body_characters": 3709,
+          "size_bytes": 229722,
+          "sha256": "a540ceaf26d353a6757df623fb95aa46fd3cbe6c206f38758a3a744521d2a87a",
+          "pages": 8,
+          "image_only_pages": 0
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-005",
+      "title": "河源压气站关于清理备件证书缺项的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-005-v1.docx",
+          "path": "notices/QH-NOT-2025-005-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "HY-05"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3664,
+          "size_bytes": 107626,
+          "sha256": "43f31192a598cb74e8309f2b35ab9aa44cda0521a698b5ff07f0d0fdf0f03770"
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-006",
+      "title": "青岳末站关于统一日报时间口径的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-006-v1.docx",
+          "path": "notices/QH-NOT-2025-006-v1.docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QY-06"
+          ],
+          "authority": "内部",
+          "layout": "word_tables",
+          "body_characters": 3653,
+          "size_bytes": 106841,
+          "sha256": "b08660f5b08bf8837a164b342b7e28c79937bc26249a525db76f2d4f0030bca5"
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-007",
+      "title": "栖霞清管站关于开展岗位培训复核的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-007-v1.xlsx",
+          "path": "notices/QH-NOT-2025-007-v1.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "QX-07"
+          ],
+          "authority": "内部",
+          "layout": "workbook",
+          "body_characters": 3668,
+          "size_bytes": 17437,
+          "sha256": "bc3498062375189c6151193b8c1c0ab2fa791e0f6d61e4e4807c1aae2e5f3753"
+        }
+      ]
+    },
+    {
+      "code": "QH-NOT-2025-008",
+      "title": "东澜计量站关于开展季度档案抽查的通知",
+      "kind": "notice",
+      "versions": [
+        {
+          "number": 1,
+          "filename": "QH-NOT-2025-008-v1.html",
+          "path": "notices/QH-NOT-2025-008-v1.html",
+          "mime_type": "text/html",
+          "effective_from": "2025-01-01T00:00:00+08:00",
+          "equipment_models": [
+            "DL-08"
+          ],
+          "authority": "内部",
+          "layout": "web_article",
+          "body_characters": 3720,
+          "size_bytes": 109029,
+          "sha256": "4def756a5e2a5798f9411daa00ddf8fb673f0198f02fa7af80dbb4fe9430f3cd"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question": "QH-STD-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-002",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-002",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-002",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-003",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-003",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-003",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-004",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-004",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-004",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-009 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-009",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-009 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-009",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-009 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-009",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-009 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-009",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-009 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-009",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-010 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-010",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-010 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-010",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-010 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-010",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-010 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-010",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-010 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-010",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-011 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-011",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-011 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-011",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-011 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-011",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-011 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-011",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-011 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-011",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-STD-2025-012 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-STD-2025-012",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-012 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-STD-2025-012",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-012 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-STD-2025-012",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-STD-2025-012 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-STD-2025-012",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-STD-2025-012 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-STD-2025-012",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-002",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-003",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-004",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-004",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-009 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-009",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-009 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-009",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-009 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-009",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-009 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-009",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-009 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-009",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-010 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-010",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-010 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-010",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-010 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-010",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-010 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-010",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-010 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-010",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-011 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-011",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-011 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-011",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-011 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-011",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-011 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-011",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-011 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-011",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-MAN-2025-012 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-MAN-2025-012",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-012 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-MAN-2025-012",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-012 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-MAN-2025-012",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-MAN-2025-012 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-MAN-2025-012",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-MAN-2025-012 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-MAN-2025-012",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-002",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-003",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-004",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-004",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-009 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-009",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-009 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-009",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-009 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-009",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-009 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-009",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-009 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-009",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-OPS-2025-010 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-OPS-2025-010",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-010 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-OPS-2025-010",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-010 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-OPS-2025-010",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-OPS-2025-010 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-OPS-2025-010",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-OPS-2025-010 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-OPS-2025-010",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-002",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-002",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-002",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-003",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-003",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-004",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-004",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-009 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-009",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-009 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-009",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-009 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-009",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-009 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-009",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-009 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-009",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-INC-2025-010 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-INC-2025-010",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-010 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-INC-2025-010",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-010 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-INC-2025-010",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-INC-2025-010 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-INC-2025-010",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-INC-2025-010 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-INC-2025-010",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-002",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-003",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-003",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-004",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-004",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-HOV-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-HOV-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-HOV-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-HOV-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-HOV-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-HOV-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-HOV-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-HOV-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-001 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 第2版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 2,
+      "expected_answer": "2个工作日",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 第2版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 2,
+      "expected_answer": "8年",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 第2版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 2,
+      "expected_answer": "15%",
+      "expected_quote": "本版一般事项初审时限为2个工作日，完整证据保存期限为8年，月度分层抽查比例为15%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-001 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 2,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-001 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-001",
+      "version": 2,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-002 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-002",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-002 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-002",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-002 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-002",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-002 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-002",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-002 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-002",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-003 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-003",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-003 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-003",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-003 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-003",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-003 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-003",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-003 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-003",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-004 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-004",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-004 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-004",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-004 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-004",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-004 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-004",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-004 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-004",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-005 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-005",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-005 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-005",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-005 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-005",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "held_out",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-005 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-005",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-005 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-005",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-006 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-006",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-006 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-006",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-006 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-006",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-006 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-006",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-006 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-006",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-007 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-007",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-007 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-007",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-007 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-007",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-007 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-007",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-007 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-007",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    },
+    {
+      "question": "QH-NOT-2025-008 第1版的一般事项初审时限是多少？",
+      "document_code": "QH-NOT-2025-008",
+      "version": 1,
+      "expected_answer": "3个工作日",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-008 第1版的完整证据保存期限是多少？",
+      "document_code": "QH-NOT-2025-008",
+      "version": 1,
+      "expected_answer": "5年",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-008 第1版的月度分层抽查比例是多少？",
+      "document_code": "QH-NOT-2025-008",
+      "version": 1,
+      "expected_answer": "10%",
+      "expected_quote": "本版一般事项初审时限为3个工作日，完整证据保存期限为5年，月度分层抽查比例为10%。工作日不包含周末；收到材料当日不计入办理时限。材料补正期间保留原接收时间并单独记录补正耗时，不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development",
+      "locator_hint": "一 文件适用范围与管理边界"
+    },
+    {
+      "question": "QH-NOT-2025-008 是否允许通过撤回重提清除逾期记录？",
+      "document_code": "QH-NOT-2025-008",
+      "version": 1,
+      "expected_answer": "不允许",
+      "expected_quote": "不允许通过撤回重提清除逾期记录。",
+      "should_refuse": false,
+      "split": "development"
+    },
+    {
+      "question": "QH-NOT-2025-008 中设备未披露的制造商序列号是什么？",
+      "document_code": "QH-NOT-2025-008",
+      "version": 1,
+      "should_refuse": true,
+      "reason": "文件未提供制造商序列号",
+      "split": "held_out"
+    }
+  ]
+}

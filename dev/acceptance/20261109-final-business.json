@@ -1,0 +1,50 @@
+{
+  "started_at": "2026-11-09T06:37:21.930777+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "hazard",
+      "started_at": "2026-11-09T06:37:21.963652+00:00",
+      "status": "passed",
+      "result": {
+        "hazard_id": "ffba7e1e-89b5-4b99-9706-e2376aacaec6",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-09T06:37:22.508402+00:00"
+    },
+    {
+      "name": "meeting",
+      "started_at": "2026-11-09T06:37:22.509034+00:00",
+      "status": "passed",
+      "result": {
+        "meeting_id": "0d9a10e2-fca5-425a-a470-ea375f981bf7",
+        "acl_version": 2
+      },
+      "finished_at": "2026-11-09T06:37:22.953968+00:00"
+    },
+    {
+      "name": "work_order",
+      "started_at": "2026-11-09T06:37:22.954389+00:00",
+      "status": "failed",
+      "reason": "overdue reminder was not generated",
+      "finished_at": "2026-11-09T06:38:57.401877+00:00"
+    },
+    {
+      "name": "reminders",
+      "started_at": "2026-11-09T06:38:57.403572+00:00",
+      "status": "blocked",
+      "reason": "requires the work_order scenario to generate and acknowledge an overdue reminder",
+      "finished_at": "2026-11-09T06:38:57.403757+00:00"
+    }
+  ],
+  "resources": {
+    "hazard_id": "ffba7e1e-89b5-4b99-9706-e2376aacaec6",
+    "work_order_id": "7e706a63-d0ad-4778-a5f7-a1c8048acbd7",
+    "event_id": "8ad309a4-6c4f-4c7f-ad8e-4f10d3ef1544",
+    "event_version_id": "81e2f50f-a19a-4441-9ae8-a3e1bab004d8",
+    "fixture_provenance": "synthetic_fixture_no_model"
+  },
+  "finished_at": "2026-11-09T06:38:57.409690+00:00",
+  "status": "incomplete"
+}

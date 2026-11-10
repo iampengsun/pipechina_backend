@@ -1,0 +1,52 @@
+{
+  "finished_at": "2026-11-10T02:31:38.229064+00:00",
+  "status": "passed",
+  "tests": {
+    "passed": 200,
+    "skipped": 2,
+    "total": 202,
+    "real_indexes_enabled": true
+  },
+  "coverage": {
+    "total_with_branches": 78.41983610002102,
+    "statements": 82.97355873428695,
+    "branches": 59.26331145149526
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format_files": 315,
+    "mypy_sources": 255
+  },
+  "mcp": {
+    "tools": 13,
+    "read_only_tools": 12,
+    "pending_observation_write_tools": 1,
+    "resource_templates": 3,
+    "prompt_templates": 2,
+    "retry_same_observation": true,
+    "pending_not_in_facts": true,
+    "human_confirmation_required": true,
+    "http_response_cache_bypassed": true
+  },
+  "database": {
+    "revision": "0001",
+    "application_tables": 83,
+    "single_migration_file": true,
+    "fresh_upgrade_check_downgrade_repeat_upgrade": "passed",
+    "existing_database_adoption": "schema-compared; only revision marker changed",
+    "backup": "pipechina-postgres-1:/tmp/before-initial-baseline.dump"
+  },
+  "history_preparation": {
+    "previous_commits": 9,
+    "requested_main_commits": 1,
+    "main_commits": 1,
+    "recovery_backup_status": "deleted at user request",
+    "recovery_backup_deleted_at": "2026-11-10T02:34:22.243494+00:00"
+  },
+  "documentation": {
+    "documents": 16,
+    "relative_links": 144,
+    "broken_links": 0
+  },
+  "provenance": "synthetic business acceptance; no expert or real Qwen effect claim"
+}

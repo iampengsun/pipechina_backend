@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-11-08T03:02:54.915910+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "vision",
+      "started_at": "2026-11-08T03:02:54.967190+00:00",
+      "status": "passed",
+      "result": {
+        "vision": {
+          "findings": [
+            {
+              "title": "OCR-MARKER-7429",
+              "category": "标识",
+              "severity": "medium",
+              "description": "无现场操作授权",
+              "evidence": "No field operation is authorized.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "expert_validated": false
+      },
+      "finished_at": "2026-11-08T03:03:32.471790+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T03:03:32.472855+00:00",
+  "status": "passed"
+}

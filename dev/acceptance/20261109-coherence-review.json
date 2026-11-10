@@ -1,0 +1,52 @@
+{
+  "at": "2026-11-09T09:12:28.522804+00:00",
+  "source_digest": "db380f90bea7b075c054b3ab667cc9732e9ec6d9aff65dbf25daac9ec387d647",
+  "scope": "module integration and maintainability",
+  "tests": {
+    "passed": 182,
+    "skipped": 3,
+    "total": 185,
+    "branch_coverage_percent": 78.07
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format": "passed",
+    "mypy_sources": 232,
+    "compile": "passed"
+  },
+  "architecture": {
+    "modules_covered": 9,
+    "core_layers": [
+      "api",
+      "application",
+      "domain"
+    ],
+    "infrastructure_and_tasks": "only where implemented",
+    "cross_module_api_imports": "forbidden"
+  },
+  "database": {
+    "application_tables": 75,
+    "revision": "20261107_0006",
+    "migration_changes": false
+  },
+  "changes": [
+    "quality module aligned with API/application/domain layers",
+    "MCP reads quality application service and domain schema",
+    "meeting publication and knowledge API share application job dispatch",
+    "shared attachment schemas and verification; hazard attachment orchestration moved out of API",
+    "explicit resolution/acceptance/reminder output models replace table reflection",
+    "redundant quality/memory view mapping removed",
+    "read-only stack commands no longer rewrite .env",
+    "offline update replaces source directories and excludes bytecode; original commands/users verified",
+    "obsolete empty hazard infrastructure package removed",
+    "README and service/deployment documentation describe current capabilities"
+  ],
+  "business_smoke": "20261109-coherence-business.json",
+  "runtime_verification": {
+    "ready_status": 200,
+    "read_only_status_preserved_env": true,
+    "all_five_image_entrypoints_and_users": "passed",
+    "typed_work_order_openapi": "passed",
+    "business_scenarios": "all_passed"
+  }
+}

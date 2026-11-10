@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-11-09T09:08:48.170732+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "hazard",
+      "started_at": "2026-11-09T09:08:48.351019+00:00",
+      "status": "passed",
+      "result": {
+        "hazard_id": "a4018270-ebab-48ac-9a3f-65848c638c0b",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-09T09:08:48.534525+00:00"
+    },
+    {
+      "name": "meeting",
+      "started_at": "2026-11-09T09:08:48.535423+00:00",
+      "status": "passed",
+      "result": {
+        "meeting_id": "fa7d0c19-8e81-4a81-9706-b1ca748aa3eb",
+        "acl_version": 2
+      },
+      "finished_at": "2026-11-09T09:08:48.585176+00:00"
+    },
+    {
+      "name": "work_order",
+      "started_at": "2026-11-09T09:08:48.585377+00:00",
+      "status": "passed",
+      "result": {
+        "work_order_id": "529ab9bc-e9d5-40f3-99a4-7b41a90fff44",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-09T09:09:41.766881+00:00"
+    },
+    {
+      "name": "reminders",
+      "started_at": "2026-11-09T09:09:41.768298+00:00",
+      "status": "passed",
+      "result": {
+        "reminder_id": "7c9e570f-fddc-4686-82c9-2f77ed8c391c",
+        "status": "resolved",
+        "acknowledgement_preserved": true
+      },
+      "finished_at": "2026-11-09T09:09:41.773710+00:00"
+    }
+  ],
+  "resources": {
+    "hazard_id": "a4018270-ebab-48ac-9a3f-65848c638c0b",
+    "work_order_id": "529ab9bc-e9d5-40f3-99a4-7b41a90fff44",
+    "event_id": "20b381d8-137f-4c88-9998-8ddadc88d621",
+    "event_version_id": "e0fe1ca4-7bc0-4d40-a838-6eb3686ed27a",
+    "fixture_provenance": "synthetic_fixture_no_model",
+    "reminder_id": "7c9e570f-fddc-4686-82c9-2f77ed8c391c"
+  },
+  "finished_at": "2026-11-09T09:09:41.774805+00:00",
+  "status": "passed"
+}

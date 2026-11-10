@@ -1,0 +1,1 @@
+"""Hazard domain package."""

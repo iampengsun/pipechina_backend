@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-11-07T05:27:59.095353+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "ai",
+      "started_at": "2026-11-07T05:27:59.159025+00:00",
+      "status": "failed",
+      "reason": "AcceptanceFailure",
+      "finished_at": "2026-11-07T05:31:59.567219+00:00"
+    },
+    {
+      "name": "work_order",
+      "started_at": "2026-11-07T05:31:59.568226+00:00",
+      "status": "blocked",
+      "reason": "requires a synthetic draft created by a successful AI scenario",
+      "finished_at": "2026-11-07T05:31:59.568287+00:00"
+    },
+    {
+      "name": "memory",
+      "started_at": "2026-11-07T05:31:59.568644+00:00",
+      "status": "blocked",
+      "reason": "requires a closed synthetic work order",
+      "finished_at": "2026-11-07T05:31:59.568688+00:00"
+    },
+    {
+      "name": "reminders",
+      "started_at": "2026-11-07T05:31:59.568939+00:00",
+      "status": "blocked",
+      "reason": "requires the work_order scenario to generate and acknowledge an overdue reminder",
+      "finished_at": "2026-11-07T05:31:59.568970+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-07T05:31:59.569881+00:00",
+  "status": "incomplete"
+}

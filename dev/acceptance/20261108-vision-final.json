@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-08T02:38:39.052030+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "vision",
+      "started_at": "2026-11-08T02:38:39.107142+00:00",
+      "status": "failed",
+      "reason": "real vision failed: HTTP 502",
+      "finished_at": "2026-11-08T02:41:27.717501+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T02:41:27.719469+00:00",
+  "status": "incomplete"
+}

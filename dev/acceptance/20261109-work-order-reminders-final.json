@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-11-09T06:43:02.423694+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "work_order",
+      "started_at": "2026-11-09T06:43:02.454274+00:00",
+      "status": "passed",
+      "result": {
+        "work_order_id": "1cf5aefa-c66c-470f-be46-b0c2793ea282",
+        "independent_acceptance": true
+      },
+      "finished_at": "2026-11-09T06:43:09.375277+00:00"
+    },
+    {
+      "name": "reminders",
+      "started_at": "2026-11-09T06:43:09.376379+00:00",
+      "status": "passed",
+      "result": {
+        "reminder_id": "8b840521-7412-4200-926d-d3b422b436ad",
+        "status": "resolved",
+        "acknowledgement_preserved": true
+      },
+      "finished_at": "2026-11-09T06:43:09.388880+00:00"
+    }
+  ],
+  "resources": {
+    "work_order_id": "1cf5aefa-c66c-470f-be46-b0c2793ea282",
+    "event_id": "1e6ed31d-2362-498a-a91a-d3eb7ab22102",
+    "event_version_id": "db7c3935-ed5e-4fa9-98f1-35a9bdd70c46",
+    "fixture_provenance": "synthetic_fixture_no_model",
+    "reminder_id": "8b840521-7412-4200-926d-d3b422b436ad"
+  },
+  "finished_at": "2026-11-09T06:43:09.389705+00:00",
+  "status": "passed"
+}

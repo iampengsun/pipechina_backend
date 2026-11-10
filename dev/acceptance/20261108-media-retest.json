@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-11-08T01:28:17.188577+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "asr",
+      "started_at": "2026-11-08T01:28:17.222259+00:00",
+      "status": "failed",
+      "reason": "real ASR failed: HTTP 500",
+      "finished_at": "2026-11-08T01:28:17.304680+00:00"
+    },
+    {
+      "name": "vision",
+      "started_at": "2026-11-08T01:28:17.305211+00:00",
+      "status": "failed",
+      "reason": "TimeoutError",
+      "finished_at": "2026-11-08T01:43:17.310176+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T01:43:17.313487+00:00",
+  "status": "incomplete"
+}

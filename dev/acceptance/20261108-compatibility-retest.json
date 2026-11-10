@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-11-08T01:47:01.049409+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "asr",
+      "started_at": "2026-11-08T01:47:01.148066+00:00",
+      "status": "failed",
+      "reason": "speaker count mismatch: expected 2, got 4",
+      "finished_at": "2026-11-08T01:47:20.233237+00:00"
+    },
+    {
+      "name": "documents",
+      "started_at": "2026-11-08T01:47:20.234397+00:00",
+      "status": "failed",
+      "reason": "document expected text missing: scanned_ocr",
+      "finished_at": "2026-11-08T01:47:26.274480+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T01:47:26.275808+00:00",
+  "status": "incomplete"
+}

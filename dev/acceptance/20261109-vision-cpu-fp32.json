@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-09T06:37:17.461441+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "vision",
+      "started_at": "2026-11-09T06:37:17.530612+00:00",
+      "status": "failed",
+      "reason": "RemoteProtocolError",
+      "finished_at": "2026-11-09T06:37:59.781743+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-09T06:37:59.782522+00:00",
+  "status": "incomplete"
+}

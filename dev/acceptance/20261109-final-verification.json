@@ -1,0 +1,74 @@
+{
+  "at": "2026-11-09T06:52:04.730342+00:00",
+  "source_digest": "42765871860cf6d8b8659b2bcc941f92f367f9c09bf1d8529ca5aa7522e21cdc",
+  "status": "local_implementation_verified_external_acceptance_blocked",
+  "tests": {
+    "passed": 175,
+    "skipped": 3,
+    "total": 178,
+    "branch_coverage_percent": 77.84,
+    "warnings_as_errors": true
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format": "passed",
+    "mypy_sources": 225,
+    "compile": "passed",
+    "docs_broken_links": 0,
+    "unmatched_api_operations": 0
+  },
+  "schema": {
+    "revision": "20261107_0006",
+    "application_tables": 75,
+    "json_columns": 68,
+    "alembic_check": "no_missing_upgrade_operations"
+  },
+  "runtime": {
+    "compose_services": 20,
+    "running": 18,
+    "completed_initializers": 2,
+    "docker_memory_mib": 16384,
+    "disk_available_gib": 11.12,
+    "frontend": false
+  },
+  "verified": {
+    "hazard_and_meeting": "20261109-final-business.json (hazard/meeting passed; interrupted order failure preserved)",
+    "work_order_and_reminders": "20261109-work-order-reminders-final.json",
+    "media_and_documents": "20261109-final-media-acceptance.json",
+    "external_indexes_and_local_models": {
+      "passed": 2,
+      "qwen_test_not_selected": true
+    },
+    "query_restore": "20261108-query-restore-drill.json",
+    "load": "20261109-read-load.json",
+    "monitoring": "20261109-runtime-state.json",
+    "runtime_dependency_audit": "20261109-runtime-dependency-audit.json",
+    "backend_dependency_audit": "20261109-backend-dependency-audit.json"
+  },
+  "known_external_blockers": [
+    {
+      "item": "Beijing Qwen",
+      "status": "ConnectTimeout",
+      "evidence": "20261109-qwen-connectivity.json",
+      "consequence": "Real RAG generation, agent AI effect and experience extraction remain unaccepted"
+    },
+    {
+      "item": "Expert quality acceptance",
+      "status": "awaiting actual experts, held-out samples, approved labels and thresholds",
+      "expert_confirmed": false
+    },
+    {
+      "item": "Production deployment",
+      "status": "release tooling implemented; actual host, enterprise IdP, TLS and business approval not supplied"
+    }
+  ],
+  "expert_accepted": false,
+  "production_deployed": false,
+  "operational_changes": [
+    "CPU FP32 vision with thumbnail scene routing and bounded output",
+    "Docker memory raised from 12 to 16 GiB on 24 GiB host",
+    "legacy project images/cache removed; all business/model volumes retained",
+    "disk capacity alerts and startup memory guard",
+    "expiration applies to periodic scans; durable business Outbox retained"
+  ]
+}

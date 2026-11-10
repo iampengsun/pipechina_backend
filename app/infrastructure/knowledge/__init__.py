@@ -1,0 +1,1 @@
+"""External knowledge service adapters."""

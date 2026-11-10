@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-07T04:56:12.389807+00:00",
+  "scope": "current_code_documentation_and_targeted_real_integration_review",
+  "full_regression_reference": "20261107-remediation-verification.json",
+  "live_checks": {
+    "command": "RAG_EXTERNAL_TEST=1 RAG_MODELS_TEST=1 pytest tests/test_knowledge_external.py tests/test_knowledge_live_models.py -k 'not grounded_generation'",
+    "passed": 2,
+    "deselected": 1,
+    "seconds": 5.19,
+    "expert_validated": false
+  },
+  "open_items": [
+    "A1_beijing_qwen_connectivity_and_real_pipeline",
+    "A2_expert_dataset_and_quality_acceptance",
+    "A3_hazard_measured_retest_independent_acceptance_and_attachments",
+    "A4_meeting_acl_updates",
+    "A5_automatic_speaker_diarization",
+    "A6_real_media_and_complex_document_validation",
+    "A7_independent_full_lifecycle_acceptance_scenarios",
+    "A8_production_operations_readiness"
+  ],
+  "source_of_truth": "../../docs/功能完成度与验收边界.md",
+  "documentation": {
+    "documents": 15,
+    "local_links": 125,
+    "broken_links": [],
+    "api_table_operations": 145,
+    "unmatched_apis": [],
+    "unbalanced_fences": [],
+    "interview_questions": 192,
+    "question_sequence_ok": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-11-08T02:44:11.272268+00:00",
+  "project": "pipechina-restore-4a65a981e5",
+  "status": "passed",
+  "volumes": {
+    "alertmanager_data": "restored_and_compared",
+    "backend_objects": "restored_and_compared",
+    "es_data": "restored_and_compared",
+    "knowledge_runtime_data": "restored_and_compared",
+    "neo4j_data": "restored_and_compared",
+    "pg_data": "restored_and_compared",
+    "prometheus_data": "restored_and_compared",
+    "qdrant_data": "restored_and_compared",
+    "rabbitmq_data": "restored_and_compared",
+    "redis_data": "restored_and_compared",
+    "seaweed_data": "restored_and_compared"
+  },
+  "service_recovery": {
+    "elasticsearch": "query_verified_against_source_snapshot",
+    "qdrant": "query_verified_against_source_snapshot",
+    "neo4j": "query_verified_against_source_snapshot",
+    "seaweedfs": "query_verified_against_source_snapshot"
+  },
+  "verified_tables": 76,
+  "index_verification": "query_verified",
+  "finished_at": "2026-11-08T02:46:19.550745+00:00"
+}

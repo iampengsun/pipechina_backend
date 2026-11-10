@@ -1,0 +1,48 @@
+groups:
+  - name: project
+    rules:
+      - alert: ProjectComponentNotReady
+        expr: probe_success == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: 'Project component not ready: {{ $labels.instance }}'
+      - alert: ProjectMetricsUnavailable
+        expr: up{job="api"} == 0
+        for: 2m
+        labels:
+          severity: critical
+      - alert: ProjectAPIErrors
+        expr: sum(rate(pipechina_http_requests_total{status=~"5.."}[5m])) / clamp_min(sum(rate(pipechina_http_requests_total[5m])), 0.001) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+      - alert: ProjectAPILatency
+        expr: histogram_quantile(0.95, sum by (le) (rate(pipechina_http_duration_seconds_bucket[5m]))) > 2
+        for: 5m
+        labels:
+          severity: warning
+
+      - alert: ProjectOutboxExhausted
+        expr: pipechina_outbox{status="failed"} > 0
+        for: 1m
+        labels:
+          severity: warning
+      - alert: ProjectJobQueueStalled
+        expr: pipechina_oldest_queued_seconds > 600
+        for: 5m
+        labels:
+          severity: warning
+      - alert: ProjectRuntimeDiskLow
+        expr: pipechina_runtime_disk_available_bytes < 2147483648
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: 'Project runtime filesystem has less than 2 GiB available'
+      - alert: ProjectRuntimeDiskCritical
+        expr: pipechina_runtime_disk_available_bytes < 536870912
+        for: 1m
+        labels:
+          severity: critical

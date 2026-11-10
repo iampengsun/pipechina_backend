@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-08T01:28:05.115001+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "documents",
+      "started_at": "2026-11-08T01:28:05.331209+00:00",
+      "status": "failed",
+      "reason": "document expected text missing: scanned_ocr",
+      "finished_at": "2026-11-08T01:29:41.789953+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T01:29:41.791176+00:00",
+  "status": "incomplete"
+}

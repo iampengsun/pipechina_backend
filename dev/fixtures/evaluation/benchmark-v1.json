@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "provenance": "synthetic_fixture",
+  "expert_validated": false,
+  "source": "dev/fixtures/knowledge_corpus/manuals/QH-MAN-2025-008-v1.md",
+  "notice": "合成验收样本，参考答案直接依据仓库合成文档，不代表真实企业效果或领域专家验收。正式样本应由领域专家复核并锁定开发集和留出集。",
+  "development": [
+    {"case_id":"cabinet-labels","question":"北岑分输站通信机柜链路归属应如何判定？","reference_answer":"机柜标识、端口清单和布线图一致后才能判定链路归属。","reference_evidence":[{"document_code":"QH-MAN-2025-008","quote":"机柜标识、端口清单和布线图一致后才能判定链路归属"}],"should_refuse":false},
+    {"case_id":"cabinet-photo","question":"能否仅凭照片光点反射认定通信机柜发生告警？","reference_answer":"不能。巡检照片应包含端口编号和指示灯，光点反射不能直接认定告警。","reference_evidence":[{"document_code":"QH-MAN-2025-008","quote":"巡检照片应包含端口编号和指示灯，光点反射不能直接认定告警"}],"should_refuse":false},
+    {"case_id":"cabinet-unknown-temperature","question":"北岑分输站通信机柜今天14点的实际温度是多少？","reference_answer":"现有资料没有该时刻的实际温度，不能推断。","reference_evidence":[],"should_refuse":true}
+  ],
+  "held_out": [
+    {"case_id":"cabinet-relabel","question":"修复通信线路标签时能不能根据相邻端口位置判断用途？","reference_answer":"不能。线路标签修复须双人核对，禁止凭相邻端口位置推断用途。","reference_evidence":[{"document_code":"QH-MAN-2025-008","quote":"线路标签修复须双人核对，禁止凭相邻端口位置推断用途"}],"should_refuse":false},
+    {"case_id":"cabinet-close-definition","question":"通信机柜巡检记录中已完成、已复验、已关闭有什么区别？","reference_answer":"已完成是执行动作结束；已复验是独立人员确认验收条件满足；已关闭是复验合格且所有关联记录已归档。","reference_evidence":[{"document_code":"QH-MAN-2025-008","quote":"已完成指执行动作已结束；已复验指独立人员确认验收条件满足；已关闭指复验合格且所有关联记录已归档"}],"should_refuse":false},
+    {"case_id":"cabinet-unknown-repair-date","question":"北岑分输站通信机柜下一次实际维修日期是哪一天？","reference_answer":"现有资料没有实际维修安排，不能据通用巡检手册编造日期。","reference_evidence":[],"should_refuse":true}
+  ]
+}

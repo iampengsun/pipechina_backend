@@ -1,0 +1,20 @@
+{
+  "asr": {
+    "status": "passed",
+    "packages": 61,
+    "skipped": [],
+    "vulnerabilities": []
+  },
+  "vision": {
+    "status": "passed",
+    "packages": 55,
+    "skipped": [],
+    "vulnerabilities": []
+  },
+  "knowledge_runtime": {
+    "status": "passed",
+    "packages": 118,
+    "skipped": [],
+    "vulnerabilities": []
+  }
+}

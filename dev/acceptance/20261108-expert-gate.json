@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-08T01:44:34.932155+00:00",
+  "status": "blocked",
+  "checks": {},
+  "reason": "2 validation errors for GatePlan\nexpert_user_ids\n  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_short\nimprovement_ids\n  Dictionary should have at least 2 items after validation, not 0 [type=too_short, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_short"
+}

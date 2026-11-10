@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-08T02:10:58.906136+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "cases": [
+    {
+      "name": "ai",
+      "started_at": "2026-11-08T02:10:59.002886+00:00",
+      "status": "failed",
+      "reason": "AcceptanceFailure",
+      "finished_at": "2026-11-08T02:14:05.102189+00:00"
+    }
+  ],
+  "resources": {},
+  "finished_at": "2026-11-08T02:14:05.103327+00:00",
+  "status": "incomplete"
+}

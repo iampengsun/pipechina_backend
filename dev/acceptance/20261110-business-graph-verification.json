@@ -1,0 +1,73 @@
+{
+  "finished_at": "2026-11-10T02:11:31.476067+00:00",
+  "status": "passed",
+  "scope": [
+    "business evidence paths",
+    "knowledge withdrawal/expiry/new-revision impact and human review",
+    "confirmed equipment/failure recurrence with order and hazard measurements",
+    "equipment aliases and correction",
+    "agent and authenticated MCP tools",
+    "transactional projection and current-source authorization"
+  ],
+  "tests": {
+    "tests": 199,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 2,
+    "passed": 197,
+    "seconds": 194.051,
+    "real_indexes_enabled": true,
+    "skipped_cases": [
+      {
+        "name": "test_actual_embedding_and_reranker",
+        "reason": "live local models opt-in"
+      },
+      {
+        "name": "test_actual_grounded_generation",
+        "reason": "external LLM synthetic check opt-in"
+      }
+    ]
+  },
+  "coverage": {
+    "percent_covered": 78.29757298628209,
+    "percent_statements_covered": 82.8730725672968,
+    "percent_branches_covered": 59.10087719298246,
+    "num_statements": 11479,
+    "num_branches": 2736
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format_files": 311,
+    "mypy_source_files": 252
+  },
+  "database": {
+    "application_tables": 83,
+    "json_document_columns": 71,
+    "revision": "20261110_0007",
+    "alembic_check": "no new upgrade operations",
+    "pre_migration_backup": "pipechina-postgres-1:/tmp/before-business-graph.dump"
+  },
+  "deployment": {
+    "project_services": 20,
+    "running_services": 18,
+    "initializers_exited_successfully": 2,
+    "application_sha256": "786b3f6cd77020cedfbeb65c8a9f8eee7a8b484d50bc77a19cc8ba2a7433ebd9",
+    "container_application_sha256_matches": true,
+    "source_update_method": "verified_local_runtime",
+    "no_new_container_dependency": true
+  },
+  "documentation": {
+    "documents": 16,
+    "relative_links_checked": 149,
+    "broken_links": 0
+  },
+  "live_http_mcp_and_worker_report": "20261110-business-graph-live.json",
+  "limits": {
+    "max_traversal_depth": 6,
+    "max_query_paths": 1000,
+    "max_projection_records": 50000,
+    "model_test_provenance": "synthetic; no real Qwen effect claim",
+    "prior_qwen_beijing_timeout": "not re-evaluated in this graph acceptance",
+    "expert_business_validation": false
+  }
+}

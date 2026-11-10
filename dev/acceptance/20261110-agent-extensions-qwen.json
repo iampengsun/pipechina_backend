@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-11-10T07:49:02.146890+00:00",
+  "model": "qwen3.7-plus",
+  "provider": "qwen",
+  "expert_effectiveness_verified": false,
+  "status": "unavailable",
+  "error_type": "AppError"
+}

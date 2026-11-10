@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-10T09:20:06.273516+00:00",
+  "source_sha256": "2b84e9756f7991a932212321335cbc335f02e1e4e64ee631b11d1c5d6f883daa",
+  "full_suite": {
+    "passed": 218,
+    "skipped": 2,
+    "branch_coverage_percent": 78,
+    "real_es_qdrant_neo4j": true
+  },
+  "final_related_suite": {
+    "passed": 18
+  },
+  "static_checks": [
+    "ruff",
+    "format",
+    "mypy",
+    "compileall",
+    "git diff --check"
+  ],
+  "http_operations": 224,
+  "documented_operations": 224,
+  "valid_doc_links": 346,
+  "schema_revision": "0003_station_locations",
+  "application_tables": 85,
+  "mcp_tools": 18,
+  "services_added": 0,
+  "provider_credentials_configured": false,
+  "real_provider_data_verified": false
+}

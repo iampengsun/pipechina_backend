@@ -1,0 +1,188 @@
+{
+  "provenance": "synthetic_manual_fixture_no_model",
+  "expert_validated": false,
+  "started_at": "2026-11-10T02:28:32.233450+00:00",
+  "steps": [
+    "authenticated_mcp_discovery_and_three_graph_tool_calls",
+    "authentication",
+    "manual_equipment_confirmation",
+    "two_confirmed_episodes",
+    "measured_independent_acceptance",
+    "automatic_beat_worker_projection",
+    "recurrence_with_before_after_values"
+  ],
+  "mcp_tools": 13,
+  "mcp_read_tools": 12,
+  "mcp_observation": {
+    "id": "bc01d9a6-1b8f-57cd-8911-f7eaa0da3eb4",
+    "duplicate_replay_same_id": true,
+    "pending_excluded_from_facts": true,
+    "human_confirmation_visible": true
+  },
+  "status": "passed",
+  "equipment_id": "fff663a8-6ec5-4731-97dd-5ff5e59ce9a5",
+  "failure_mode_id": "9bd00959-b57d-4e2b-af4f-05a58e4bae89",
+  "fixtures": [
+    {
+      "work_order_id": "650f369a-2088-4ef3-b6bd-7007243e6a54",
+      "event_id": "6e27fe62-c3c7-4095-a230-89077e76481d",
+      "event_version_id": "5f4ef3c5-d1d0-4e25-b20c-c4f152b5aca1",
+      "fixture_provenance": "synthetic_fixture_no_model"
+    },
+    {
+      "work_order_id": "2e3c3e7f-7bea-47f5-a1b1-0807d1309413",
+      "event_id": "a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+      "event_version_id": "66bfe6f9-da38-48bb-abe7-20c81ee80ecf",
+      "fixture_provenance": "synthetic_fixture_no_model"
+    }
+  ],
+  "recurrence": {
+    "equipment_id": "fff663a8-6ec5-4731-97dd-5ff5e59ce9a5",
+    "failure_mode_id": "9bd00959-b57d-4e2b-af4f-05a58e4bae89",
+    "episodes": [
+      {
+        "key": "event:6e27fe62-c3c7-4095-a230-89077e76481d",
+        "observed_at": "2026-11-10T02:28:32.581419Z",
+        "time_basis": "registered_at",
+        "records": [
+          {
+            "key": "event:6e27fe62-c3c7-4095-a230-89077e76481d",
+            "kind": "event",
+            "record_id": "6e27fe62-c3c7-4095-a230-89077e76481d",
+            "revision": "a7ba03a450bd096559c64eca4ec26aa736f5a25872cd60d3458ed600c75cee5e",
+            "title": "[合成验收] fixture-b59e583f07",
+            "state": "confirmed",
+            "binding_revision": "6d726ab6e0e7e49f759e4b4d1b417e956d407569260b9791d7d35cc544ad8d21",
+            "details": {}
+          }
+        ],
+        "orders": [
+          {
+            "id": "650f369a-2088-4ef3-b6bd-7007243e6a54",
+            "state": "closed",
+            "confirmed_for_equipment": true,
+            "measured_accepted": true,
+            "action": "合成更换测试密封件",
+            "result": "合成读数通过",
+            "measurements": [
+              {
+                "unit": "L/min",
+                "after": 0.0,
+                "before": 2.0,
+                "metric": "合成泄漏率",
+                "maximum": 0.1,
+                "minimum": null,
+                "criterion": "仅合成软件测试，不是现场标准",
+                "measured_at": "2026-11-10T02:28:31.906431Z"
+              }
+            ],
+            "verification_measurements": [
+              {
+                "unit": "L/min",
+                "after": 0.0,
+                "before": 2.0,
+                "metric": "合成泄漏率",
+                "maximum": 0.1,
+                "minimum": null,
+                "criterion": "仅合成软件测试，不是现场标准",
+                "measured_at": "2026-11-10T02:28:31.906431Z"
+              }
+            ],
+            "acceptance_id": "48a5d4dc-e22e-4c82-bb7a-456506542167",
+            "accepted_at": "2026-11-10T02:28:32.927916Z",
+            "next_record_at": "2026-11-10T02:28:32.964533Z",
+            "days_to_next_record": 0.0,
+            "next_record_time_basis": "registered_at"
+          }
+        ],
+        "hazard_outcomes": []
+      },
+      {
+        "key": "event:a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+        "observed_at": "2026-11-10T02:28:32.964533Z",
+        "time_basis": "registered_at",
+        "records": [
+          {
+            "key": "event:a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+            "kind": "event",
+            "record_id": "a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+            "revision": "ab5d7eb6d4bbd8415fb5b2096f9671eed9829d4518cedf43d676417905a8dfb1",
+            "title": "[合成验收] fixture-cd062fb3ac",
+            "state": "confirmed",
+            "binding_revision": "4e353b65480f4ada038179d019684ab07d48a1e9fd05ce09c44e4118bb6b28cd",
+            "details": {}
+          }
+        ],
+        "orders": [
+          {
+            "id": "2e3c3e7f-7bea-47f5-a1b1-0807d1309413",
+            "state": "draft",
+            "confirmed_for_equipment": false,
+            "measured_accepted": false,
+            "action": null,
+            "result": null,
+            "measurements": [],
+            "verification_measurements": [],
+            "acceptance_id": null,
+            "accepted_at": null,
+            "next_record_at": null,
+            "days_to_next_record": null,
+            "next_record_time_basis": null
+          }
+        ],
+        "hazard_outcomes": []
+      }
+    ],
+    "visible_episode_count": 2,
+    "repeated_observations": true,
+    "stale_associations": false,
+    "validation": {
+      "nodes": {
+        "acceptance:48a5d4dc-e22e-4c82-bb7a-456506542167": "6f9ba1b760bb085490a487c1ab7549afb4d1020f9644ba0334275c3015a2783d",
+        "equipment:fff663a8-6ec5-4731-97dd-5ff5e59ce9a5": "99bc3b0c84b3dacefc8e55b29654f03fb5d2396971186b88d0088c78ee7f21f9",
+        "event:6e27fe62-c3c7-4095-a230-89077e76481d": "a7ba03a450bd096559c64eca4ec26aa736f5a25872cd60d3458ed600c75cee5e",
+        "event:a6498206-dcb0-4a62-aaaa-bc5c6ca88895": "ab5d7eb6d4bbd8415fb5b2096f9671eed9829d4518cedf43d676417905a8dfb1",
+        "failure_mode:9bd00959-b57d-4e2b-af4f-05a58e4bae89": "19e1f14d97e0e2120b18cd5aed1b1607edbd506d86b1908064d8e222bfd811f2",
+        "resolution:0c61e92d-246f-4359-a47b-30a83520973a": "90164079439bc5da3144a65b6832d7c988cdf99d8961247b27731487199f5fd4",
+        "station:02d8194f-b2aa-4385-a711-2e5f6c80d98f": "9cd0f4aabd1a969d1c1582fb655237bc5f0c1007a6b53d8252fd57b292dab5f5",
+        "work_order:2e3c3e7f-7bea-47f5-a1b1-0807d1309413": "50515d58167ed13f3d5e86ea2c91b2d310c98b1e0cc2be5388b69507ce542604",
+        "work_order:650f369a-2088-4ef3-b6bd-7007243e6a54": "020e3eaa55399d0e419df5f7d9ae7bb4ae634bef1dd1cfdc49659564d2626298"
+      },
+      "edges": [
+        "044679584ded61c468ab177596a155bcbcef5196887d0052cde18282589b0f16",
+        "3dfd39684c06f16ed25b8ea5622080e0cdb24cbefb879499d74f5734e5c6dd59",
+        "5948a3e30b029414b0ac7f274e4f5328d1b35d673dd0826972ca4569136cd960",
+        "89e71efb3c0b6736ceebd5f4c0cc20c46d8cb1b4c2e723f31f089bb052e585b4",
+        "9cad0f2fbdbd2362b06a907a8dd0d939d070c5ca4e3e6777eff79c7642b41ad1",
+        "9da93a9dccd415e73ff5c69ac645555c76707f253a1af8cf183e8a13e0236397",
+        "bb7a98e739e57370d3088987359182240e9545a7da6e35a4b31b2987aeaf744b",
+        "bb9ad060612ed1c2da277ecc3afc346dd69636f1a35bfbb8608678a3a094cfa0",
+        "c275ccc17530632aae154c8ea414ad0e280f8174fb3ffb20c823b5c999f0782c",
+        "e8d8b331786cdc31a660540b76a881c1a7b3e510daa4924225962ae05d47254a",
+        "eef2af44eaefe3c671ea02035b792f6645413a035c746caddc7f5ec9b5585dbe"
+      ]
+    },
+    "projection": {
+      "generation": "249193526ea54d20ab574f7755933e98",
+      "synced_at": "2026-11-10T02:28:43.929146+00:00",
+      "source_changes_pending": false,
+      "limited": false,
+      "complete": true
+    },
+    "interpretation": "仅统计当前权限内、人工确认设备及故障类型的正式事件/已评估隐患；同一事件派生的隐患合并计数。再次登记间隔不代表措施无效或因果关系。"
+  },
+  "projection": {
+    "generation": "249193526ea54d20ab574f7755933e98",
+    "synced_at": "2026-11-10T02:28:43.929146+00:00",
+    "pending_changes": 0,
+    "last_error": null,
+    "counts": {
+      "edges": 64,
+      "nodes": 74,
+      "new_reviews": 0,
+      "processed_changes": 1
+    },
+    "ready": true
+  },
+  "finished_at": "2026-11-10T02:28:45.424308+00:00"
+}

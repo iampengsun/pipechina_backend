@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-07T01:14:17.086833+00:00",
+  "provenance": "synthetic_regression_and_local_deployment",
+  "expert_validated": false,
+  "tests": {
+    "passed": 164,
+    "skipped": 3,
+    "total": 167,
+    "branch_coverage_percent": 77.48,
+    "warnings_as_errors": true
+  },
+  "static_checks": {
+    "ruff_lint": "passed",
+    "ruff_format": "passed",
+    "mypy_sources": 209,
+    "compileall": "passed",
+    "diff_whitespace": "passed"
+  },
+  "deployment": {
+    "compose_services": 17,
+    "application_tables": 74,
+    "json_columns": 65,
+    "alembic_revision": "20261107_0005",
+    "schema_check": "passed",
+    "alembic_check": "no_new_upgrade_operations",
+    "readiness_http": 200,
+    "reminders_http": 200,
+    "frontend_http": 404
+  },
+  "fixes": [
+    "outbox_exhaustion_and_legacy_retry_recovery",
+    "ndcg_empty_retrieval",
+    "critic_source_text",
+    "assignee_and_hazard_source_validation",
+    "inspection_start_idempotency_and_version_flush",
+    "structured_retest_and_independent_acceptance",
+    "reminder_query_acknowledge_resolve",
+    "dedicated_maintenance_worker"
+  ],
+  "real_model_acceptance": {
+    "status": "failed",
+    "report": "20261107-real-acceptance.json",
+    "error_code": "KNOWLEDGE_PROCESSING_FAILED",
+    "provider_error": "TEXT_PROVIDER_ERROR",
+    "root_cause": "httpx.ConnectTimeout"
+  },
+  "network_diagnostics": {
+    "beijing_authenticated_models": "ConnectTimeout",
+    "direct": "ConnectTimeout",
+    "environment_proxy": "ConnectTimeout",
+    "region_changed": false
+  },
+  "documentation": {
+    "documents": 14,
+    "local_links": 123,
+    "broken_links": [],
+    "api_table_operations": 145,
+    "unmatched_apis": [],
+    "unbalanced_fences": [],
+    "interview_questions": 192,
+    "question_sequence_ok": true
+  }
+}

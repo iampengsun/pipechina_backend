@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-08T02:50:09.204832+00:00",
+  "scope": "authenticated_read_only",
+  "requests": 120,
+  "concurrency": 10,
+  "status_counts": {
+    "200": 120
+  },
+  "elapsed_seconds": 0.9771202080009971,
+  "median_seconds": 0.06809631250507664,
+  "p95_seconds": 0.3333299999940209,
+  "status": "passed",
+  "meaning": "observed envelope only; not a production capacity guarantee"
+}

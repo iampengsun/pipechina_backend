@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-11-07T05:27:59.159057+00:00",
+  "provenance": "synthetic_acceptance",
+  "expert_validated": false,
+  "steps": [
+    {
+      "name": "runtime_and_authentication",
+      "status": "passed"
+    }
+  ],
+  "resources": {
+    "base_id": "6232b266-894d-4b43-a0a8-27c30c6d53e3",
+    "version_id": "78f5a077-2fce-4665-bb23-d3f6d6a3e4bc"
+  },
+  "status": "failed",
+  "failure": "job 126dfa5b-badf-490b-8d25-21faf6d90fbc did not complete before timeout",
+  "finished_at": "2026-11-07T05:31:59.564772+00:00"
+}

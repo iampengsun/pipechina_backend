@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-11T00:33:24.535982+00:00",
+  "real_provider_data_verified": false,
+  "note": "Provider credentials and authorized real station coordinates are still required.",
+  "readiness": {
+    "http_status": 200,
+    "body": {
+      "status": "ready"
+    }
+  },
+  "http_operations": 224,
+  "mcp_tools": [
+    "start_investigation",
+    "get_weather_alerts",
+    "get_map_context",
+    "query_enterprise_gis",
+    "get_access_route",
+    "trace_case_relations",
+    "find_recurrent_hazards",
+    "assess_change_impact",
+    "search_events",
+    "search_work_orders",
+    "search_handover",
+    "get_case_context",
+    "search_knowledge",
+    "search_experiences",
+    "get_evaluation_improvement",
+    "submit_case_observation",
+    "get_work_order_verification",
+    "get_impact_review"
+  ],
+  "weather_endpoint": {
+    "http_status": 200,
+    "result": [
+      {
+        "operation": "get_weather_alerts",
+        "event_id": "a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+        "event_version_id": "66bfe6f9-da38-48bb-abe7-20c81ee80ecf",
+        "record_id": "a6498206-dcb0-4a62-aaaa-bc5c6ca88895",
+        "location_refs": [],
+        "retrieved_at": "2026-11-11T00:33:25.199448+00:00",
+        "valid_until": "2026-11-11T00:38:25.199448+00:00",
+        "status": "needs_location",
+        "station_id": "02d8194f-b2aa-4385-a711-2e5f6c80d98f",
+        "unknowns": [
+          "站场缺少有效的人工确认WGS84位置。"
+        ]
+      }
+    ]
+  }
+}

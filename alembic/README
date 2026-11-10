@@ -1,0 +1,6 @@
+Single-database Alembic migration environment for the backend.
+
+The repository contains one baseline revision, 20260926_0001. It initializes an
+empty PostgreSQL database with the current application schema. Databases created
+with the retired revision chain require a separate, backed-up data migration;
+do not stamp them to the new baseline or run this baseline against existing tables.
